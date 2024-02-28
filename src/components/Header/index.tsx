@@ -12,6 +12,7 @@ import { useGetListAppByUserQuery, useGetUserInfoQuery, useLogout, usePublishApp
 import { appKeyState, collapsedState, isVisiblePreviewAppState } from '@/recoil'
 import { getThirtParty } from '@/utils'
 
+
 type Props = {}
 
 export const Header: React.FC<Props> = () => {
@@ -54,7 +55,7 @@ export const Header: React.FC<Props> = () => {
           />
           <div>
             <Typography.Paragraph className="font-semibold text-gray800 mb-0 text-xs">
-              {find(listApp?.data, { appKey })?.applicationName}
+              {find(listApp?.data, { appKey })?.applicationName}App
             </Typography.Paragraph>
             <Typography.Paragraph className="text-gray800 text-xs mb-0">{appKey}</Typography.Paragraph>
           </div>

@@ -7,6 +7,7 @@ import { Footer, Header } from '@/components'
 import { useDevice, useWindowBeforeUnload } from '@/hooks'
 import { LayoutWrapper } from '@/layouts'
 
+
 type Props = {
   children?: React.ReactNode
   isVisibleFooter?: boolean

@@ -16,6 +16,7 @@ import { appPageState, currentIndexPageState } from '@/recoil'
 import { DroppableId, DroppableType, OptionScrollBehavior } from '@/types'
 import { countObjKey, reorderItemInArray } from '@/utils'
 
+
 type Props = {}
 
 export const SettingScreenHome: React.FC<Props> = () => {
@@ -170,7 +171,7 @@ export const SettingScreenHome: React.FC<Props> = () => {
           <Typography.Paragraph className="flex items-center gap-1 mb-2">
             Home list
             <Tooltip title="Rearrange the order and set scrolling behavior for each home">
-              <QuestionCircleOutlined rev className="cursor-help" />
+              <QuestionCircleOutlined className="cursor-help" />
             </Tooltip>
           </Typography.Paragraph>
           <Spin spinning={spinning}>

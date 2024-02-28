@@ -34,10 +34,8 @@ export const DesignHome = () => {
   const { data: allPage } = useGetAllPageQuery()
 
   const findHomePage = useMemo(() => find(allPage?.data, (i) => i?.type === PageTypes.Home), [allPage?.data]) as AppPage
-  console.log('isMobile', isMobile)
   return (
     <LayoutDesign
-      leftContentClassName={'bg-red-500'}
       leftContent={
         <Droppable type={DroppableType.Block} droppableId={DroppableId.BlockHandle} isDropDisabled={false}>
           {(provided) => (
@@ -96,12 +94,12 @@ export const DesignHome = () => {
                         <Col span={24} ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                           <div
                             className={classNames('cursor-pointer select-none')}
-                            // onClick={() => {
-                            //   if (isMobile) {
-                            //     onDropBlockFromSidebar(block?.type, 0)
-                            //     setIsVisibleLeftContent(false)
-                            //   }
-                            // }}
+                            onClick={() => {
+                              if (isMobile) {
+                                onDropBlockFromSidebar(block?.type, 0)
+                                setIsVisibleLeftContent(false)
+                              }
+                            }}
                           >
                             {block?.component}
                           </div>

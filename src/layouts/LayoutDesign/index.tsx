@@ -12,6 +12,7 @@ import { LayoutMain } from '@/layouts'
 import { flagChangeAppPageState, flagChangeLayoutState, isVisibleLeftContentState } from '@/recoil'
 import { BlockType, DroppableId, DroppableType, PageTypes } from '@/types'
 
+
 type Props = {
   leftContent?: React.ReactNode
   leftContentClassName?: string
