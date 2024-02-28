@@ -17,7 +17,9 @@ export const useGetPermissionsOfUserQuery = (arg: Arg) => {
     return rs.data
   }, [api, appKey, arg?.id])
 
-  const fn = useQuery(['useGetPermissionsOfUserQuery', appKey, arg?.id], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetPermissionsOfUserQuery', appKey, arg?.id],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey && !!arg?.id,

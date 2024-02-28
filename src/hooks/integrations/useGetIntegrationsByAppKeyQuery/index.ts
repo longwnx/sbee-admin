@@ -13,7 +13,9 @@ export const useGetIntegrationsByAppKeyQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetIntegrationsByAppKeyQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetIntegrationsByAppKeyQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

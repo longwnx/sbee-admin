@@ -36,5 +36,5 @@ export const IconEye: React.FC<Props> = ({ width = 24, height = 24, stroke = '#1
     ),
     [height, stroke, width]
   )
-  return <Icon rev component={() => iconSvg} />
+  return <Icon component={() => iconSvg} />
 }

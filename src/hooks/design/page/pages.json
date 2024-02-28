@@ -1,0 +1,4111 @@
+[
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Product List",
+      "visible": false
+    },
+    "type": "productList",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa372e"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Shopping Cart",
+      "visible": true
+    },
+    "type": "cart",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa372f"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Notifications",
+      "visible": true
+    },
+    "type": "notifications",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3730"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Orders List",
+      "visible": true
+    },
+    "type": "orders",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3731"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Search",
+      "visible": true
+    },
+    "type": "search",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3732"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Sign In",
+      "visible": true
+    },
+    "type": "signIn",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3733"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Wishlist",
+      "visible": true
+    },
+    "type": "wishlist",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3735"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Address Book",
+      "visible": true
+    },
+    "type": "address",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3736"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Info page",
+      "visible": true
+    },
+    "type": "info",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3737"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "LookBook",
+      "visible": true
+    },
+    "type": "lookBook",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3738"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Locations",
+      "visible": true
+    },
+    "type": "location",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3739"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Recently Viewed",
+      "visible": true
+    },
+    "type": "recentlyViewed",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa373c"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Profile",
+      "visible": true
+    },
+    "type": "myProfile",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa373d"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Settings",
+      "visible": true
+    },
+    "type": "settings",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa373e"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "text": "Customer Enquiry",
+      "visible": true
+    },
+    "type": "customerEnquiry",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa373f"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "backgroundColor": "#ffffff",
+        "blocks": [
+          {
+            "action": {
+              "target": "bigcommerce-user/v1/address/edit/%s",
+              "type": "submit"
+            },
+            "backgroundColor": "#FFFFFF",
+            "editable": false,
+            "fields": [
+              {
+                "code": "first-name",
+                "defaultValue": null,
+                "displayName": "First Name",
+                "id": "b9821625-6c45-412c-894d-6ff722082ac2",
+                "maxLength": 0,
+                "name": "First Name",
+                "required": true,
+                "sequence": 4,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "last-name",
+                "defaultValue": null,
+                "displayName": "Last Name",
+                "id": "25a7e9b0-06e8-4e34-baf5-97f9d947f457",
+                "maxLength": 0,
+                "name": "Last Name",
+                "required": true,
+                "sequence": 5,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "company-name",
+                "defaultValue": null,
+                "displayName": "Company Name",
+                "id": "3f9bb1f3-450c-4e6f-9d98-0f2d158a1697",
+                "maxLength": 0,
+                "name": "Company Name",
+                "required": false,
+                "sequence": 8,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "phone-number",
+                "defaultValue": null,
+                "displayName": "Phone Number",
+                "id": "408a838e-49cf-4f17-bce7-3421aff7dc01",
+                "maxLength": 0,
+                "name": "Phone Number",
+                "required": false,
+                "sequence": 7,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "address-1",
+                "defaultValue": null,
+                "displayName": "Address Line 1",
+                "id": "d149852b-641f-4e18-b21f-e9ffe1f29b81",
+                "maxLength": 0,
+                "name": "Address Line 1",
+                "required": true,
+                "sequence": 9,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "address-2",
+                "defaultValue": null,
+                "displayName": "Address Line 2",
+                "id": "49ad707d-44be-40bc-afda-7ff90e92621b",
+                "maxLength": 0,
+                "name": "Address Line 2",
+                "required": false,
+                "sequence": 10,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "suburb-city",
+                "defaultValue": null,
+                "displayName": "Suburb/City",
+                "id": "861fcab3-c0ed-4598-880c-427b6dd8c77c",
+                "maxLength": 0,
+                "name": "Suburb/City",
+                "required": true,
+                "sequence": 11,
+                "type": "text-field",
+                "value": null
+              },
+              {
+                "code": "country",
+                "defaultValue": null,
+                "displayName": "Country",
+                "id": "e9ec5b8c-f411-4aeb-bbb9-a1911831959e",
+                "maxLength": 0,
+                "name": "Country",
+                "required": true,
+                "sequence": 12,
+                "type": "country-list",
+                "value": null
+              },
+              {
+                "code": "state-province",
+                "defaultValue": null,
+                "displayName": "State/Province",
+                "id": "a48a9f15-ed86-4d0c-a50b-e72cdd6466a8",
+                "maxLength": 0,
+                "name": "State/Province",
+                "required": true,
+                "sequence": 13,
+                "type": "state-list",
+                "value": null
+              },
+              {
+                "code": "zip-postcode",
+                "defaultValue": null,
+                "displayName": "Zip/Postcode",
+                "id": "f52998a8-d9ab-4bd3-8fe8-12a249f214e3",
+                "maxLength": 0,
+                "name": "Zip/Postcode",
+                "required": true,
+                "sequence": 14,
+                "type": "text-field",
+                "value": null
+              }
+            ],
+            "id": "baaa2378-cfd6-4a90-86fc-bcdf99cf746a",
+            "title": {
+              "text": "New Address",
+              "visible": true
+            },
+            "type": "form"
+          }
+        ],
+        "id": "f20490b5-fd90-48ad-87a3-8c9a4862c557"
+      }
+    ],
+    "title": {
+      "text": "New Address",
+      "visible": true
+    },
+    "type": "addressForm",
+    "options": null,
+    "id": "655300750eccee28a7940e67"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": null,
+    "title": {
+      "visible": true,
+      "text": "Barcode & QR Scanner"
+    },
+    "type": "scanner",
+    "options": null,
+    "id": "65680e5726cd5538a6eb0483"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [],
+    "title": {
+      "text": "10/01"
+    },
+    "type": "storeLocator",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "659e11a04e54a508cdefc2ba"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [],
+    "title": {
+      "text": "Info page new"
+    },
+    "type": "custom",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "659e18024e54a508cdefc2bb"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [],
+    "title": {
+      "text": "test locator"
+    },
+    "type": "storeLocator",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "659f9ab34e54a508cdefc2bf"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "id": "0d57b30b-7782-41c8-a83c-f5a8609f1a81",
+        "title": {
+          "text": "Page 1"
+        },
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "id": "0e7fe18e-2cf1-4e8e-824f-7d00fcd60003",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "inlineHtmlContent",
+            "backgroundColor": "#FFFFFF",
+            "content": "<p>Welcome to Alphonso's Choice, where the rich tapestry of Dutch craftsmanship meets the universal language of fashion.</p>\n<p><strong>Our story</strong></p>\n<p>Nestled amidst the picturesque canals and cobbled streets of Amsterdam, Alphonso's Choice was conceived by JMango360 B.V. in 2023. Inspired by the vibrant mix of cultures, art, and history of The Netherlands, our brand embodies the essence of Amsterdam - a harmonious blend of tradition and modernity.</p>\n<p><strong>The vision behind the Brand</strong></p>\n<p>At the heart of Alphonso's Choice is an aspiration to craft pieces that resonate with timeless grace while echoing contemporary trends. We draw from the meticulous attention to detail synonymous with Dutch artistry, infusing every design with a hint of the unexpected.</p>\n<p><strong>Sustainability and craftsmanship</strong></p>\n<p>In the land of windmills, bicycles, and eco-conscious living, sustainability isn&rsquo;t just a buzzword &ndash; it&rsquo;s a way of life. Alphonso's Choice proudly incorporates this ethos. Our pieces are crafted from eco-friendly materials, and we employ sustainable practices from design to delivery, ensuring that our footprint on the environment is minimal.</p>\n<p><strong>The Alphonso's essence</strong></p>\n<p>Our brand name, 'Alphonso's Choice', is more than just a label. It signifies a curated selection of the finest, handpicked with discerning taste and an eye for unparalleled style. Every item is a nod to the sartorial elegance of those who wish to express themselves without words.</p>\n<p><strong>The Dutch connection</strong></p>\n<p>Being rooted in Amsterdam gives us a unique perspective on global fashion. The Dutch are known for their straightforwardness, innovation, and a keen eye for quality. We channel these attributes into every collection, offering fashion-forward pieces that don't compromise on durability and comfort.</p>\n<p><strong>Join the Alphonso's community</strong></p>\n<p>We invite you to be a part of the Alphonso's Choice family, a community that embraces the spirit of Amsterdam - progressive, artistic, and ever-evolving.</p>\n<p>Thank you for choosing Alphonso's Choice, a testament to Dutch ingenuity and global aesthetics.</p>"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "text": "Info page module"
+    },
+    "type": "custom",
+    "options": null,
+    "id": "6540aa6c93eee17194658613"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "title": "November Crown",
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "type": "store",
+            "images": [
+              {
+                "src": "https://maps.googleapis.com/maps/api/staticmap?center=21.029069900512695,105.78014373779297&zoom=14&size=1125x750&markers=color:red%7Clabel:S%7C21.029069900512695,105.78014373779297&key=AIzaSyD1L7S_YeVTo4o-ICHBKr9ylYv-vsdFtj0",
+                "ratio": 1.5,
+                "width": 1125,
+                "height": 750,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "November Crown",
+              "address": "15 Pham Hung, My Dinh, Nam Tu Liem, Ha Noi",
+              "phone": "1321-1232-11",
+              "mail": "store@email.com",
+              "website": "store.com"
+            },
+            "descriptions": "Store Description",
+            "coordinates": {
+              "lat": 21.029069900512695,
+              "lng": 105.78014373779297
+            },
+            "openDays": [
+              {
+                "label": "Monday",
+                "type": "monday",
+                "time": "08:00 AM - 09:00 PM",
+                "id": "23a4c4e6-2f9e-4991-b6dd-07617c2a70a5"
+              },
+              {
+                "label": "Tuesday",
+                "type": "tuesday",
+                "time": "08:00 AM - 09:00 PM",
+                "id": "bd436dd5-1f30-4d20-8089-ad47f7e64156"
+              },
+              {
+                "label": "Wednesday",
+                "type": "wednesday",
+                "time": "08:00 AM - 09:00 PM",
+                "id": "48a43e8b-1a6e-4ebb-8cea-49d4567b8c01"
+              },
+              {
+                "label": "Thursday",
+                "type": "thursday",
+                "time": "08:00 AM - 09:00 PM",
+                "id": "a8d36412-885e-4690-ac09-50bc0b389378"
+              },
+              {
+                "label": "Friday",
+                "type": "friday",
+                "time": "08:00 AM - 09:00 PM",
+                "id": "a390054a-e531-4eb7-8497-ae520ba3c6ff"
+              },
+              {
+                "label": "Saturday",
+                "type": "saturday",
+                "time": "08:00 AM - 09:00 PM",
+                "id": "39db01ea-b816-4bc9-a35d-c18f78d2a931"
+              },
+              {
+                "label": "Sunday",
+                "type": "sunday",
+                "time": "Close",
+                "id": "7cfa8214-bc98-47f5-a58d-bffe0119b504"
+              }
+            ],
+            "id": "2fd7d521-f217-4819-9d8e-4ce0e6fdb5af"
+          }
+        ],
+        "id": "acfb5f92-48b5-4fa7-a0da-4a0c15f23b78"
+      }
+    ],
+    "title": {
+      "text": "Demo Locator"
+    },
+    "type": "storeLocator",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "659f9bd94e54a508cdefc2c0"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "id": "b4742106-0d6c-49ce-be92-2092c322d8bf",
+        "title": {
+          "text": "Home 1"
+        },
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "id": "a1be8f7b-dad2-424c-96b5-fa2725456af9",
+            "type": "store",
+            "images": [
+              {
+                "src": "https://maps.googleapis.com/maps/api/staticmap?center=52.3675734,4.9041389&zoom=14&size=1125x750&markers=color:red|label:S|52.3675734,4.9041389&key=AIzaSyD1L7S_YeVTo4o-ICHBKr9ylYv-vsdFtj0",
+                "ratio": 1.5,
+                "width": 1125,
+                "height": 750,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "Neo di len",
+              "address": "Amsterdam, Netherlands"
+            },
+            "coordinates": {
+              "lat": 52.3675734,
+              "lng": 4.9041389
+            },
+            "openDays": [
+              {
+                "id": "e57cf679-2074-4157-a964-e0445e7c3b1a",
+                "label": "Monday",
+                "type": "monday",
+                "time": ""
+              },
+              {
+                "id": "01c47500-606c-4b27-ba43-b71ee1caf951",
+                "label": "Tuesday",
+                "type": "tuesday",
+                "time": ""
+              },
+              {
+                "id": "42bc332a-923c-4d52-82d1-21a535adaf09",
+                "label": "Wednesday",
+                "type": "wednesday",
+                "time": ""
+              },
+              {
+                "id": "9b17c382-c5b8-4954-81ae-1d94f1a79d3f",
+                "label": "Thursday",
+                "type": "thursday",
+                "time": ""
+              },
+              {
+                "id": "6308bf8d-f47a-4892-805f-6a311edd95a8",
+                "label": "Friday",
+                "type": "friday",
+                "time": ""
+              },
+              {
+                "id": "a93fa193-d563-42cc-ae59-c463adad0ac5",
+                "label": "Saturday",
+                "type": "saturday",
+                "time": ""
+              },
+              {
+                "id": "a2bbfd42-3ae4-4ce1-b0a2-a036595077a9",
+                "label": "Sunday",
+                "type": "sunday",
+                "time": ""
+              }
+            ]
+          },
+          {
+            "id": "25d7a9b2-dc2f-4ac5-a59d-93f1f0facc82",
+            "type": "store",
+            "images": [
+              {
+                "src": "https://maps.googleapis.com/maps/api/staticmap?center=21.0290694,105.7801415&zoom=14&size=1125x750&markers=color:red|label:S|21.0290694,105.7801415&key=AIzaSyD1L7S_YeVTo4o-ICHBKr9ylYv-vsdFtj0",
+                "ratio": 1.5,
+                "width": 1125,
+                "height": 750,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "15 Pham Hung",
+              "address": "15 Phạm Hùng, Mỹ Đình, Cầu Giấy, Hà Nội, Vietnam",
+              "phone": "23i4uy2394ui"
+            },
+            "coordinates": {
+              "lat": 21.0290694,
+              "lng": 105.7801415
+            },
+            "openDays": [
+              {
+                "id": "e57cf679-2074-4157-a964-e0445e7c3b1a",
+                "label": "Monday",
+                "type": "monday",
+                "time": ""
+              },
+              {
+                "id": "01c47500-606c-4b27-ba43-b71ee1caf951",
+                "label": "Tuesday",
+                "type": "tuesday",
+                "time": ""
+              },
+              {
+                "id": "42bc332a-923c-4d52-82d1-21a535adaf09",
+                "label": "Wednesday",
+                "type": "wednesday",
+                "time": ""
+              },
+              {
+                "id": "9b17c382-c5b8-4954-81ae-1d94f1a79d3f",
+                "label": "Thursday",
+                "type": "thursday",
+                "time": ""
+              },
+              {
+                "id": "6308bf8d-f47a-4892-805f-6a311edd95a8",
+                "label": "Friday",
+                "type": "friday",
+                "time": ""
+              },
+              {
+                "id": "a93fa193-d563-42cc-ae59-c463adad0ac5",
+                "label": "Saturday",
+                "type": "saturday",
+                "time": ""
+              },
+              {
+                "id": "a2bbfd42-3ae4-4ce1-b0a2-a036595077a9",
+                "label": "Sunday",
+                "type": "sunday",
+                "time": ""
+              }
+            ]
+          },
+          {
+            "id": "4cafffe7-aa77-4041-9a86-c804b6ee096e",
+            "type": "store",
+            "images": [
+              {
+                "src": "https://maps.googleapis.com/maps/api/staticmap?center=20.9883218,105.8052294&zoom=14&size=1125x750&markers=color:red|label:S|20.9883218,105.8052294&key=AIzaSyD1L7S_YeVTo4o-ICHBKr9ylYv-vsdFtj0",
+                "ratio": 1.5,
+                "width": 1125,
+                "height": 750,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "140 Nguyen Xien",
+              "address": "140 Đ. Nguyễn Xiển, Hạ Đình, Thanh Xuân, Hà Nội, Vietnam",
+              "phone": "0982848890",
+              "mail": "giang.vu@jmango360.com",
+              "website": "https://jmango360.com/"
+            },
+            "descriptions": "<p>70% of consumers prefer shopping in-app. Put your brand in their hands and drive new revenues with your own ecommerce app. Launched in less than 30 days, fully-featured, for an affordable monthly plan.</p>",
+            "coordinates": {
+              "lat": 20.9883218,
+              "lng": 105.8052294
+            },
+            "openDays": [
+              {
+                "id": "b68ab239-ba92-476f-b7f6-193329657e63",
+                "label": "Monday",
+                "type": "monday",
+                "time": "08:00 AM - 09:00 PM"
+              },
+              {
+                "id": "2bc7240b-eec8-47f3-b717-854a10b1bafe",
+                "label": "Tuesday",
+                "type": "tuesday",
+                "time": "08:00 AM - 09:00 PM"
+              },
+              {
+                "id": "613c69a9-e4fd-4a28-b8bd-fba1724b8d8d",
+                "label": "Wednesday",
+                "type": "wednesday",
+                "time": "08:00 AM - 09:00 PM"
+              },
+              {
+                "id": "fdfc5ff9-1f50-4e2f-88a3-865d733c8c2a",
+                "label": "Thursday",
+                "type": "thursday",
+                "time": "08:00 AM - 09:00 PM"
+              },
+              {
+                "id": "5944016d-1a24-4135-97f2-244ffb1c41eb",
+                "label": "Friday",
+                "type": "friday",
+                "time": "08:00 AM - 09:00 PM"
+              },
+              {
+                "id": "f8a87e2e-54a1-4cf0-bdc5-1264ef3000b1",
+                "label": "Saturday",
+                "type": "saturday",
+                "time": "Closed"
+              },
+              {
+                "id": "8b9f6ca3-5802-4ddb-b653-047107d3d908",
+                "label": "Sunday",
+                "type": "sunday",
+                "time": "Closed"
+              }
+            ]
+          },
+          {
+            "id": "9bfa7f1b-e979-48c1-9b00-097ebcff0fba",
+            "type": "store",
+            "images": [
+              {
+                "src": "https://maps.googleapis.com/maps/api/staticmap?center=10.8024187,106.7380899&zoom=14&size=1125x750&markers=color:red|label:S|10.8024187,106.7380899&key=AIzaSyD1L7S_YeVTo4o-ICHBKr9ylYv-vsdFtj0",
+                "ratio": 1.5,
+                "width": 1125,
+                "height": 750,
+                "visible": false
+              }
+            ],
+            "store": {
+              "name": "15 Thao Dien",
+              "address": "15 Đ. Thảo Điền, Thảo Điền, Quận 2, Thành phố Hồ Chí Minh, Việt Nam",
+              "mail": "giang.vu@jmango360.com"
+            },
+            "descriptions": "<h1 class=\"page-heading\">Privacy policy</h1>\n<div data-content-region=\"page_builder_content\">&nbsp;</div>\n<div class=\"page-content page-content--centered\">\n<p>&nbsp;</p>\n<p><em>Last updated September 12, 2023</em></p>\n<p>Thank you for choosing to be a part of our community at Alphonso's Choice, a brand under JMango360 B.V. Protecting your privacy is crucial to us. This Privacy Policy outlines our policies regarding the collection, use, and disclosure of your information through&nbsp;<a href=\"https://alphonso-choice.mybigcommerce.com/\">https://alphonso-choice.mybigcommerce.com/</a>&nbsp;(\"the Website\").</p>\n<p><strong>1. Information we collect</strong></p>\n<ul>\n<li>Personal information: Direct information such as your name, email address, shipping/billing address, phone number, payment details, and any other data you provide when registering or making a purchase.</li>\n<li>Usage data: Information about how you interact with our Website, including visited pages, time and date of access, time spent, and other diagnostic data.</li>\n<li>Cookies &amp; tracking data: To enhance your experience, we use cookies and similar tracking technologies.</li>\n</ul>\n<p><strong>2. Use of your information</strong></p>\n<ul>\n<li>Order processing: To process and fulfill your orders.</li>\n<li>Personalization: To tailor your experience on our Website.</li>\n<li>Updates &amp; communication: To send periodic emails regarding your orders or other products and services.</li>\n<li>Analysis: For internal analytics to improve our offerings.</li>\n<li>Security: To protect the security and integrity of our Website.</li>\n</ul>\n<p><strong>3. Sharing of information</strong></p>\n<ul>\n<li>Service providers: We collaborate with third-party companies and individuals to enhance our Website, and these providers have access to your Personal Data only to perform these tasks and are obligated not to disclose or use it for any other purpose.</li>\n<li>Compliance with laws: In case of legal obligations, we might disclose your data.</li>\n<li>Business transfers: If we undergo a merger or acquisition, your information may be transferred.</li>\n</ul>\n<p><strong>4. Your choices and rights</strong></p>\n<ul>\n<li>Access &amp; correction: You can access, update, or delete your personal information directly within your account settings or by contacting us.</li>\n<li>Cookies: You can instruct your browser to refuse cookies or notify you when a cookie is being sent.</li>\n</ul>\n<p><strong>5. Security measures</strong></p>\n<p>We strive to use commercially acceptable methods to protect your personal data. However, no electronic storage method or data transmission over the Internet is 100% secure, so we cannot guarantee its absolute security.</p>\n<p><strong>6. External links</strong></p>\n<p>Our Website may contain links to external sites not operated by us. If you click on these links, you will be directed to third-party websites. We strongly advise reviewing the Privacy Policy of every site you visit.</p>\n<p><strong>7. Children&rsquo;s privacy</strong></p>\n<p>Our Website is not targeted at individuals under 13 years. We do not knowingly collect personal data from anyone under 13 years of age.</p>\n<p><strong>8. Changes to this privacy policy</strong></p>\n<p>This Privacy Policy may be updated periodically. Any changes will be posted on this page, and, if significant, we will provide a more prominent notice (including email notification).</p>\n<p><strong>9. Contact us</strong></p>\n<p>If you have any concerns or questions about this Privacy Policy, please contact us at&nbsp;<a href=\"mailto:support@jmango360.com\">support@jmango360.com</a></p>\n<p>Thank you for placing your trust in Alphonso's Choice. We value and respect your privacy.</p>\n</div>",
+            "coordinates": {
+              "lat": 10.8024187,
+              "lng": 106.7380899
+            },
+            "openDays": [
+              {
+                "id": "b68ab239-ba92-476f-b7f6-193329657e63",
+                "label": "Monday",
+                "type": "monday",
+                "time": "Open"
+              },
+              {
+                "id": "2bc7240b-eec8-47f3-b717-854a10b1bafe",
+                "label": "Tuesday",
+                "type": "tuesday",
+                "time": "Open"
+              },
+              {
+                "id": "613c69a9-e4fd-4a28-b8bd-fba1724b8d8d",
+                "label": "Wednesday",
+                "type": "wednesday",
+                "time": "Closed"
+              },
+              {
+                "id": "fdfc5ff9-1f50-4e2f-88a3-865d733c8c2a",
+                "label": "Thursday",
+                "type": "thursday",
+                "time": "Closed"
+              },
+              {
+                "id": "5944016d-1a24-4135-97f2-244ffb1c41eb",
+                "label": "Friday",
+                "type": "friday",
+                "time": "Open"
+              },
+              {
+                "id": "f8a87e2e-54a1-4cf0-bdc5-1264ef3000b1",
+                "label": "Saturday",
+                "type": "saturday",
+                "time": "Closed"
+              },
+              {
+                "id": "8b9f6ca3-5802-4ddb-b653-047107d3d908",
+                "label": "Sunday",
+                "type": "sunday",
+                "time": "Closed"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "title": {
+      "text": "Store Locator"
+    },
+    "type": "storeLocator",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#FFFFFF"
+        }
+      }
+    },
+    "id": "658b922e63868c1f13e33a79"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "title": "The Netherlands HQ",
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "type": "store",
+            "images": [
+              {
+                "src": "https://alphonso.jmango360.io/assets/logo-long.png",
+                "ratio": 0,
+                "width": 0,
+                "height": 0,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "The Netherlands HQ",
+              "address": "Barbara Strozzilaan 201 1083 HN Amsterdam, Netherlands",
+              "phone": "+31 20 240 2567",
+              "mail": "hello@jmango360.com",
+              "website": "https://jmango360.com/"
+            },
+            "descriptions": "",
+            "coordinates": {
+              "lat": 52.33656,
+              "lng": 4.88561
+            },
+            "openDays": [
+              {
+                "label": "Monday",
+                "type": "Monday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "f00db702-889e-4db2-8d1e-249d9b22d12e"
+              },
+              {
+                "label": "Tuesday",
+                "type": "Tuesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "d986536e-91c1-4dd7-878b-32a85c6be30f"
+              },
+              {
+                "label": "Wednesday",
+                "type": "Wednesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "95d6edc6-42cf-4d29-a62f-14fb793486d4"
+              },
+              {
+                "label": "Thursday",
+                "type": "Thursday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "d15785d2-3314-442a-9920-76923325b239"
+              },
+              {
+                "label": "Friday",
+                "type": "Friday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "6262cdb9-a9f4-424c-867f-13ca96a038bb"
+              },
+              {
+                "label": "Saturday",
+                "type": "Saturday",
+                "time": "Closed",
+                "id": "cbeef329-33ef-4381-99e8-550efb9248c6"
+              },
+              {
+                "label": "Sunday",
+                "type": "Sunday",
+                "time": "Closed",
+                "id": "91487e0b-6b40-42fe-8d31-fa49b59233e8"
+              }
+            ],
+            "id": "7aef2dc0-2e64-43cd-9663-5dcc8cb5bd5d"
+          }
+        ],
+        "id": "14b00a6b-d49b-462d-a462-3fde62871e6d"
+      },
+      {
+        "title": "USA",
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "type": "store",
+            "images": [
+              {
+                "src": "https://alphonso.jmango360.io/assets/logo-long.png",
+                "ratio": 0,
+                "width": 0,
+                "height": 0,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "USA",
+              "address": "501 Congress Ave. Suite 150 Austin, TX 78701, USA",
+              "phone": "+1 737 237 6700",
+              "mail": "hello@jmango360.com",
+              "website": "https://jmango360.com/"
+            },
+            "descriptions": "",
+            "coordinates": {
+              "lat": 30.26724,
+              "lng": -97.74279
+            },
+            "openDays": [
+              {
+                "label": "Monday",
+                "type": "Monday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "9900cca9-6a7c-4c6c-a248-25d6421cc49c"
+              },
+              {
+                "label": "Tuesday",
+                "type": "Tuesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "a5b18df7-ac3d-4f2e-b181-8f5840157549"
+              },
+              {
+                "label": "Wednesday",
+                "type": "Wednesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "22f3a042-c8bf-45b2-91d9-a0de49965009"
+              },
+              {
+                "label": "Thursday",
+                "type": "Thursday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "f163d914-feae-469c-a684-226ceb7cdc19"
+              },
+              {
+                "label": "Friday",
+                "type": "Friday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "0afdd44d-4b99-4f3f-bbb3-6aef1ae51cd3"
+              },
+              {
+                "label": "Saturday",
+                "type": "Saturday",
+                "time": "Closed",
+                "id": "ed8c493d-5ce1-46c4-b8a9-098c3b6842ed"
+              },
+              {
+                "label": "Sunday",
+                "type": "Sunday",
+                "time": "Closed",
+                "id": "5ffca462-a075-480a-8c7c-356e6a049104"
+              }
+            ],
+            "id": "307ed7e3-6265-4ffd-997b-4f90afbf6f2a"
+          }
+        ],
+        "id": "1ce299b4-34e7-44f4-8e40-784431bd6f4e"
+      },
+      {
+        "title": "UK",
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "type": "store",
+            "images": [
+              {
+                "src": "https://alphonso.jmango360.io/assets/logo-long.png",
+                "ratio": 0,
+                "width": 0,
+                "height": 0,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "UK",
+              "address": "34 High St Aldridge, Walsall WS9 8LX, UK",
+              "phone": "+44 7737 273366",
+              "mail": "hello@jmango360.com",
+              "website": "https://jmango360.com/"
+            },
+            "descriptions": "",
+            "coordinates": {
+              "lat": 52.60505,
+              "lng": -1.91567
+            },
+            "openDays": [
+              {
+                "label": "Monday",
+                "type": "Monday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "689627ec-0133-4a3d-a617-8490a17713ba"
+              },
+              {
+                "label": "Tuesday",
+                "type": "Tuesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "96d045e1-967e-4b32-b852-975392fb843e"
+              },
+              {
+                "label": "Wednesday",
+                "type": "Wednesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "ec740471-1ae9-4ece-aa90-8119a417039e"
+              },
+              {
+                "label": "Thursday",
+                "type": "Thursday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "851e64e3-76fb-4a80-b7c4-e5ebb756c51b"
+              },
+              {
+                "label": "Friday",
+                "type": "Friday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "5da23e4f-f947-44bd-b7e5-0a68253b0b13"
+              },
+              {
+                "label": "Saturday",
+                "type": "Saturday",
+                "time": "Closed",
+                "id": "9ef99867-3ce5-45c6-ad57-5fbae742e9f9"
+              },
+              {
+                "label": "Sunday",
+                "type": "Sunday",
+                "time": "Closed",
+                "id": "57bcafa8-38e3-48c3-bd81-82c6db05eb36"
+              }
+            ],
+            "id": "4474fb45-fe11-49ed-a3f5-56a37d2d48ea"
+          }
+        ],
+        "id": "5d2be507-6547-4084-ad4d-e16d1a337dc6"
+      },
+      {
+        "title": "Vietnam",
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "type": "store",
+            "images": [
+              {
+                "src": "https://alphonso.jmango360.io/assets/logo-long.png",
+                "ratio": 0,
+                "width": 0,
+                "height": 0,
+                "visible": true
+              }
+            ],
+            "store": {
+              "name": "Vietnam",
+              "address": "15 Phạm Hùng Mỹ Đình, Cầu Giấy, Hà Nội, Việt Nam",
+              "phone": "+84 24 6687 2248",
+              "mail": "hello@jmango360.com",
+              "website": "https://jmango360.com/"
+            },
+            "descriptions": "",
+            "coordinates": {
+              "lat": 21.03302,
+              "lng": 105.78255
+            },
+            "openDays": [
+              {
+                "label": "Monday",
+                "type": "Monday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "bc70b244-3409-49b2-8694-b851c58a1449"
+              },
+              {
+                "label": "Tuesday",
+                "type": "Tuesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "eb90910f-147b-4f0b-babd-357426745e12"
+              },
+              {
+                "label": "Wednesday",
+                "type": "Wednesday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "2d988d16-e72c-42c6-983c-652ecdaf09cc"
+              },
+              {
+                "label": "Thursday",
+                "type": "Thursday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "d31b9b1a-7d79-4ea2-9047-b936dcd99f54"
+              },
+              {
+                "label": "Friday",
+                "type": "Friday",
+                "time": "09:00 AM - 06:00 PM",
+                "id": "5c72f9c2-28ee-41b0-8888-c6f0cd6ee8c6"
+              },
+              {
+                "label": "Saturday",
+                "type": "Saturday",
+                "time": "Closed",
+                "id": "d24fedc9-4b4a-4ae8-a7e5-66cc1253bbff"
+              },
+              {
+                "label": "Sunday",
+                "type": "Sunday",
+                "time": "Closed",
+                "id": "e43cbb7a-6c4c-4161-9042-b72adb222362"
+              }
+            ],
+            "id": "9384031d-196f-4bf9-bfcb-95b073fe7920"
+          }
+        ],
+        "id": "6bfe593c-cbac-46aa-899f-6e256ed250c3"
+      }
+    ],
+    "title": {
+      "text": "Locator bulk upload"
+    },
+    "type": "storeLocator",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "65b367aecb57423353cd3ad3"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "id": "3504f2ee-6f16-48ee-8028-5dee1496a87a",
+        "title": {
+          "text": "Home 1"
+        },
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "id": "387d6b7b-7388-48e5-9619-3bd87f6393ac",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "grid",
+            "backgroundColor": "#FFFFFF",
+            "columns": 2,
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/wpbpf737olefmeu4pp8ndive/logo-ac-4",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/wpbpf737olefmeu4pp8ndive/logo-ac-4/variants/thumbnail",
+                "action": {
+                  "type": "openInAppScreen",
+                  "page": {
+                    "id": "6576eb5f678e8302957fd795",
+                    "title": {
+                      "visible": true,
+                      "text": "Brands"
+                    }
+                  }
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/oict0259r059tnzkacqdarac/logo-ac-5",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/oict0259r059tnzkacqdarac/logo-ac-5/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/ry93m3rel0p30pnitjbmufv5/logo_langra_1693216988__95127",
+                "ratio": 1,
+                "width": 120,
+                "height": 120,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/ry93m3rel0p30pnitjbmufv5/logo_langra_1693216988__95127/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/imlz5odo2p79kiini15b0ffv/logo-alphonso-choice",
+                "ratio": 1,
+                "width": 377,
+                "height": 377,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/imlz5odo2p79kiini15b0ffv/logo-alphonso-choice/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/ygdhklic2cy193l0ku9b3ndb/logo-ac",
+                "ratio": 1,
+                "width": 148,
+                "height": 148,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/ygdhklic2cy193l0ku9b3ndb/logo-ac/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/paih4ff8twczz4oydtv8h3v3/logo_mud_1693217004__20582",
+                "ratio": 1,
+                "width": 120,
+                "height": 120,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/paih4ff8twczz4oydtv8h3v3/logo_mud_1693217004__20582/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/g6cov8c2c3o6cy5cckfwb7qi/logo-ac-2",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/g6cov8c2c3o6cy5cckfwb7qi/logo-ac-2/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/kgmu4n429adprsx04uv69evv/logo-ac-3",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/kgmu4n429adprsx04uv69evv/logo-ac-3/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              }
+            ],
+            "spacing": {
+              "top": 16,
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "inner": 8
+            }
+          }
+        ]
+      }
+    ],
+    "title": {
+      "text": "Brand page"
+    },
+    "type": "custom",
+    "options": null,
+    "id": "658e2ca163868c1f13e33ac3"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "backgroundColor": "#ffffff",
+        "height": 0,
+        "textAlign": "left",
+        "isShowCategoriesName": true,
+        "blocks": [
+          {
+            "id": "580a4b9e-89df-4728-863e-d2e7449d2063",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "category": {
+                "id": 25,
+                "name": "Clothing",
+                "visible": true,
+                "url": null,
+                "image": "",
+                "children": [
+                  {
+                    "id": 31,
+                    "name": "Dresses",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 34,
+                    "name": "Co-ords",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 32,
+                    "name": "Blazers",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 33,
+                    "name": "Blouses",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 35,
+                    "name": "Skirts",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 36,
+                    "name": "Shorts + trousers",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  }
+                ],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [],
+            "title": {
+              "text": "Custom banner - Clothing",
+              "visible": true
+            }
+          },
+          {
+            "id": "a1b0c7ae-bd26-4b08-9e1d-c488e8d84f5a",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "category": {
+                "id": 38,
+                "name": "Accessories",
+                "visible": true,
+                "url": null,
+                "image": "",
+                "children": [],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [],
+            "title": {
+              "text": "Custom banner - Accessories",
+              "visible": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "e1a72505-af04-4966-82d3-15bd4f55fdbd",
+            "category": {
+              "id": 26,
+              "name": "Shoes",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 42,
+                  "name": "Flats",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 26,
+                  "selected": true
+                },
+                {
+                  "id": 64,
+                  "name": "Loafers",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 26,
+                  "selected": true
+                },
+                {
+                  "id": 41,
+                  "name": "Heels",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 26,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "8db878b4-c0ce-4f47-bcdb-da1689cc9ed7",
+            "category": {
+              "id": 27,
+              "name": "Shop by occasion",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/k/shop%20by%20occasion__20152.png",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 43,
+                  "name": "Best-dressed guest",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 27,
+                  "selected": true
+                },
+                {
+                  "id": 46,
+                  "name": "Better basics",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 27,
+                  "selected": true
+                },
+                {
+                  "id": 44,
+                  "name": "Cool workwear",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 27,
+                  "selected": true
+                },
+                {
+                  "id": 45,
+                  "name": "Vacation wardrobe",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 27,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "ad62e744-071a-47a6-bed3-14eff4e6f6cf",
+            "category": {
+              "id": 28,
+              "name": "Shop by style",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/l/shop%20by%20style__27778.png",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 47,
+                  "name": "Contemporary",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 28,
+                  "selected": true
+                },
+                {
+                  "id": 51,
+                  "name": "Vintage",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 28,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "d741318f-fa6a-4610-9e74-31cb6d647313",
+            "category": {
+              "id": 29,
+              "name": "Beauty",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 52,
+                  "name": "Make-up",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [
+                    {
+                      "id": 57,
+                      "name": "Face",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 52,
+                      "selected": true
+                    },
+                    {
+                      "id": 58,
+                      "name": "Eyes",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 52,
+                      "selected": true
+                    },
+                    {
+                      "id": 59,
+                      "name": "Cheeks",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 52,
+                      "selected": true
+                    },
+                    {
+                      "id": 60,
+                      "name": "Lips",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 52,
+                      "selected": true
+                    },
+                    {
+                      "id": 63,
+                      "name": "Brushes + tools",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 52,
+                      "selected": true
+                    },
+                    {
+                      "id": 69,
+                      "name": "Education + training",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 52,
+                      "selected": true
+                    }
+                  ],
+                  "manufactureCategory": false,
+                  "parentId": 29,
+                  "selected": true
+                },
+                {
+                  "id": 53,
+                  "name": "Hair care",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [
+                    {
+                      "id": 61,
+                      "name": "Shampoo + conditioner",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 53,
+                      "selected": true
+                    },
+                    {
+                      "id": 62,
+                      "name": "Hair treatments",
+                      "visible": true,
+                      "url": null,
+                      "image": "",
+                      "children": [],
+                      "manufactureCategory": false,
+                      "parentId": 53,
+                      "selected": true
+                    }
+                  ],
+                  "manufactureCategory": false,
+                  "parentId": 29,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "6bd134b1-e87a-4dd7-be66-3e84d4c11399",
+            "category": {
+              "id": 30,
+              "name": "Black Friday",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/m/black%20friday__96023.png",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 65,
+                  "name": "OFF10%",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 30,
+                  "selected": true
+                },
+                {
+                  "id": 66,
+                  "name": "OFF20%",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 30,
+                  "selected": true
+                },
+                {
+                  "id": 67,
+                  "name": "OFF30%",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 30,
+                  "selected": true
+                },
+                {
+                  "id": 68,
+                  "name": "OFF50%",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 30,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "1d0c09be-1417-4767-8b22-02175394c0a0",
+            "category": {
+              "id": 24,
+              "name": "Sample products",
+              "visible": false,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 23,
+                  "name": "Shop All",
+                  "visible": false,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 24,
+                  "selected": true
+                },
+                {
+                  "id": 18,
+                  "name": "Bath",
+                  "visible": false,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 24,
+                  "selected": true
+                },
+                {
+                  "id": 19,
+                  "name": "Garden",
+                  "visible": false,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 24,
+                  "selected": true
+                },
+                {
+                  "id": 21,
+                  "name": "Kitchen",
+                  "visible": false,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 24,
+                  "selected": true
+                },
+                {
+                  "id": 20,
+                  "name": "Publications",
+                  "visible": false,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 24,
+                  "selected": true
+                },
+                {
+                  "id": 22,
+                  "name": "Utility",
+                  "visible": false,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 24,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "d29f573b-28d2-4469-ad5e-2d4f1bc788fc",
+            "category": {
+              "id": 55,
+              "name": "New arrivals",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "66b5f611-6f56-4d78-85be-7e3944acad4c",
+            "category": {
+              "id": 38,
+              "name": "Accessories",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "6820a624-cb91-417b-b7b5-d47321ed42f7",
+            "category": {
+              "id": 25,
+              "name": "Clothing",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [
+                {
+                  "id": 31,
+                  "name": "Dresses",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 34,
+                  "name": "Co-ords",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 32,
+                  "name": "Blazers",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 33,
+                  "name": "Blouses",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 35,
+                  "name": "Skirts",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 36,
+                  "name": "Shorts + trousers",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "type": "bannerCategories",
+            "id": "272fd208-276d-468e-9c36-c68768ccdd9e",
+            "category": {
+              "id": 56,
+              "name": "Brands",
+              "visible": true,
+              "url": null,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              },
+              "children": [],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true,
+              "visibleName": true
+            }
+          },
+          {
+            "id": "72d3c2de-a7a9-4b5d-8124-11854036a7eb",
+            "action": {
+              "type": "openInAppScreen",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "page": {
+                "id": "658b922e63868c1f13e33a79",
+                "title": {
+                  "text": "Store Locator"
+                }
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [],
+            "title": {
+              "text": "Store locator",
+              "visible": true
+            }
+          },
+          {
+            "id": "e82222ab-55cc-4526-9c6a-562d28864a77",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "a4831ca3-9b90-4895-8159-7601d5860e0e",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "d030ef9c-7025-4a47-b770-66865d529382",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          }
+        ],
+        "id": "6513ce660a50fb25a0fa374a"
+      }
+    ],
+    "title": {
+      "text": "Categories",
+      "visible": true
+    },
+    "type": "categoryTree",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "backgroundColor": "#FFFFFF",
+          "visible": true,
+          "placeholder": "Search Product..."
+        }
+      }
+    },
+    "id": "6513ce660a50fb25a0fa373a"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "blocks": [
+          {
+            "id": "ae5ac8a9-7e46-4aff-99af-db6597cb13e8",
+            "action": {
+              "type": "openBrand",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "brand": {
+                "id": 38,
+                "name": "Alphonso",
+                "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/b/logo_alphonso_1693216952__22112.png",
+                "selected": true
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/vzp59qxjee2dqb06v56d574j/brand-page-logo-5",
+                "ratio": 3.75,
+                "width": 1500,
+                "height": 400,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/vzp59qxjee2dqb06v56d574j/brand-page-logo-5/variants/thumbnail",
+                "visible": true
+              }
+            ],
+            "title": {
+              "text": "Alphonso",
+              "visible": false
+            }
+          },
+          {
+            "id": "e2823e4a-68a3-4827-b4aa-937288ae3ffc",
+            "action": {
+              "type": "openBrand",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "brand": {
+                "id": 39,
+                "name": "Chaunsa",
+                "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/l/logo_chaunsa_1693216960__79318.png",
+                "selected": true
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/af9y592vzb0y3pae8ln8ve3p/brand-page-logo-12",
+                "ratio": 3.75,
+                "width": 1500,
+                "height": 400,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/af9y592vzb0y3pae8ln8ve3p/brand-page-logo-12/variants/thumbnail",
+                "visible": true
+              }
+            ],
+            "title": {
+              "text": "Custom banner",
+              "visible": false
+            }
+          },
+          {
+            "id": "e258fb59-750f-4454-8aa4-38c369234f27",
+            "action": {
+              "type": "openBrand",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "brand": {
+                "id": 42,
+                "name": "Keitt",
+                "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/p/logo_keitt_1693216970__61645.png",
+                "selected": true
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/ywsfigpvir5z4f5ds9azogs5/brand-page-logo-11",
+                "ratio": 3.75,
+                "width": 1500,
+                "height": 400,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/ywsfigpvir5z4f5ds9azogs5/brand-page-logo-11/variants/thumbnail",
+                "visible": true
+              }
+            ],
+            "title": {
+              "text": "Custom banner",
+              "visible": false
+            }
+          },
+          {
+            "id": "9746a2f0-3891-4542-8566-b04282763e6b",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/n00fcbhq39l74ag5su1vz5de/brand-page-logo-10",
+                "ratio": 3.75,
+                "width": 1500,
+                "height": 400,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/n00fcbhq39l74ag5su1vz5de/brand-page-logo-10/variants/thumbnail",
+                "visible": true
+              }
+            ],
+            "title": {
+              "text": "Custom banner",
+              "visible": false
+            }
+          },
+          {
+            "id": "8d1c1ce9-2be2-4c61-bbd5-9d74783ecdba",
+            "action": {
+              "type": "openBrand",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "brand": {
+                "id": 50,
+                "name": "Mahachanok",
+                "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/f/logo_mahachanok_1693216997__77531.png",
+                "selected": true
+              }
+            },
+            "type": "custombanner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/dpepodi2nd83emcklgqf17ua/brand-page-logo-9",
+                "ratio": 3.75,
+                "width": 1500,
+                "height": 400,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/dpepodi2nd83emcklgqf17ua/brand-page-logo-9/variants/thumbnail",
+                "visible": true
+              }
+            ],
+            "title": {
+              "text": "Custom banner",
+              "visible": false
+            }
+          },
+          {
+            "type": "brand",
+            "id": "cb7b5be5-e6b6-435c-b2ed-15e71f043b3e",
+            "brand": {
+              "id": 38,
+              "name": "Alphonso",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/b/logo_alphonso_1693216952__22112.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/b/logo_alphonso_1693216952__22112.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "a79b9147-4130-45b4-9ac4-f2455b89bc2a",
+            "brand": {
+              "id": 39,
+              "name": "Chaunsa",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/l/logo_chaunsa_1693216960__79318.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/l/logo_chaunsa_1693216960__79318.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "9bae9f31-75a2-4293-b540-e22c6ecbea28",
+            "brand": {
+              "id": 42,
+              "name": "Keitt",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/p/logo_keitt_1693216970__61645.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/p/logo_keitt_1693216970__61645.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "d449aa03-bd97-4eb3-bf60-656d21bc6ba4",
+            "brand": {
+              "id": 47,
+              "name": "KEVIN.MURPHY",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/e/logo_kevin.murphy_1693216979__98770.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/e/logo_kevin.murphy_1693216979__98770.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "3caee4b8-6db3-4bc0-9b3b-e06df6fe7872",
+            "brand": {
+              "id": 40,
+              "name": "Langra",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/v/logo_langra_1693216988__95127.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/v/logo_langra_1693216988__95127.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "c1c9ef44-0f05-42d3-ab21-c531e448f8c8",
+            "brand": {
+              "id": 50,
+              "name": "Mahachanok",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/f/logo_mahachanok_1693216997__77531.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/f/logo_mahachanok_1693216997__77531.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "19d7c89f-1b2d-4e91-96d3-74827b68e8e1",
+            "brand": {
+              "id": 48,
+              "name": "MUD",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/u/logo_mud_1693217004__20582.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/u/logo_mud_1693217004__20582.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "761a291d-1c78-4a7e-8811-99a3d1ec5736",
+            "brand": {
+              "id": 51,
+              "name": "The JM Beauty Academy",
+              "imageUrl": "",
+              "selected": true,
+              "image": {
+                "src": "",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          },
+          {
+            "type": "brand",
+            "id": "b1049389-cb84-4622-b67e-5ecd310df87b",
+            "brand": {
+              "id": 49,
+              "name": "Valencia Pride",
+              "imageUrl": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/p/logo_valencia%20pride_1693217012__36028.png",
+              "selected": true,
+              "image": {
+                "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/p/logo_valencia%20pride_1693217012__36028.png",
+                "ratio": 1,
+                "visible": false
+              }
+            }
+          }
+        ],
+        "backgroundColor": "#FFFFFF"
+      }
+    ],
+    "title": {
+      "visible": true,
+      "text": "Brands"
+    },
+    "type": "brands",
+    "options": {
+      "miniMapEnabled": false,
+      "imageEnabled": true,
+      "layout": {
+        "searchBar": {
+          "backgroundColor": "#FFFFFF",
+          "visible": true,
+          "placeholder": "Search Brand"
+        }
+      },
+      "itemSeparator": {
+        "height": 6,
+        "visible": true,
+        "backgroundColor": "#F5F5F5"
+      }
+    },
+    "id": "6576eb5f678e8302957fd795"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "blocks": [
+          {
+            "type": "gallery",
+            "editable": true,
+            "id": "6513ce660a50fb25a0fa3743"
+          },
+          {
+            "type": "information",
+            "title": {
+              "text": "Product information"
+            },
+            "editable": true,
+            "id": "6513ce660a50fb25a0fa3744"
+          },
+          {
+            "id": "f5a1eb76-3ebd-41d9-8cc8-6011221b0152",
+            "type": "variants",
+            "backgroundColor": "#FFFFFF",
+            "title": {
+              "text": "Select variant"
+            },
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": true
+            }
+          },
+          {
+            "id": "4082c419-ac59-4846-bb5d-f95d290eea17",
+            "type": "variants",
+            "backgroundColor": "#FFFFFF",
+            "title": {
+              "text": "Select variant"
+            },
+            "options": {
+              "presentationStyle": "modal"
+            }
+          },
+          {
+            "type": "description",
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": true
+            },
+            "title": {
+              "text": "Description"
+            },
+            "editable": true,
+            "backgroundColor": "#ffffff",
+            "id": "6513ce660a50fb25a0fa3746"
+          },
+          {
+            "id": "24c5bcd0-80bb-4a6c-bd84-d0f3dcdab71b",
+            "type": "html",
+            "backgroundColor": "#FFFFFF",
+            "title": {
+              "text": "Shipping + delivery"
+            },
+            "source": {
+              "html": "<p class=\"p1\"><strong>IN-STORE PICKUP</strong></p>\n<ul>\n<li class=\"p1\">FREE</li>\n<li class=\"p1\">Barbara Strozzilaan 201, Amsterdam 1083 HN, Netherlands (9AM - 6PM, Mon - Fri)</li>\n</ul>\n<p class=\"p1\"><strong>LOCAL SHIPPING</strong></p>\n<ul>\n<li class=\"p1\">Delivery in 2-5 business days after dispatch</li>\n<li class=\"p1\">FREE shipping on every order over&nbsp;<span class=\"s1\" style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">&euro;200 without discount code</span></li>\n</ul>\n<p class=\"p2\"><strong>INTERNATIONAL SHIPPING</strong></p>\n<ul>\n<li class=\"p2\">Delivery in 5-15 business days after dispatch</li>\n<li class=\"p2\">FREE shipping on every order over&nbsp;<span class=\"s2\" style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">&euro;300 without discount code</span></li>\n</ul>"
+            },
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": true
+            },
+            "conditions": [
+              {
+                "key": "categories"
+              }
+            ]
+          },
+          {
+            "id": "d5a3f2a0-318e-42c4-952d-da7af9c6a8b8",
+            "type": "html",
+            "backgroundColor": "#FFFFFF",
+            "title": {
+              "text": "Returns + exchanges"
+            },
+            "source": {
+              "html": "<p><strong>RETURNS</strong>: You have&nbsp;30 days from the date of receipt to return an item.&nbsp;</p>\n<p><strong>EXCHANGES</strong>: If you need an exchange for the same item, send us an email at&nbsp;<a href=\"mailto:support@jmango360.com\">support@jmango360.com</a> with details and photos if applicable.</p>"
+            },
+            "options": {
+              "presentationStyle": "accordion"
+            },
+            "conditions": [
+              {
+                "key": "categories"
+              }
+            ]
+          },
+          {
+            "type": "reviews",
+            "editable": true,
+            "id": "6513ce660a50fb25a0fa3747",
+            "title": {
+              "text": "Review"
+            }
+          },
+          {
+            "type": "relatedProducts",
+            "options": {},
+            "action": {},
+            "title": {
+              "text": "Related Products",
+              "textColor": "#22252D"
+            },
+            "editable": true,
+            "id": "6513ce660a50fb25a0fa3748"
+          },
+          {
+            "type": "customFields",
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": false
+            },
+            "fields": [],
+            "title": {
+              "text": "Custom Fields",
+              "textColor": "#22252D"
+            },
+            "backgroundColor": "#ffffff",
+            "id": "6513ce660a50fb25a0fa3749"
+          },
+          {
+            "editable": true,
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": false
+            },
+            "type": "mpn",
+            "title": {
+              "text": "Manufacturer Part Number",
+              "textColor": "#22252D"
+            }
+          },
+          {
+            "editable": true,
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": false
+            },
+            "type": "gtin",
+            "title": {
+              "text": "Global Trade Item Number",
+              "textColor": "#22252D"
+            }
+          },
+          {
+            "editable": true,
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": false
+            },
+            "type": "warranty",
+            "title": {
+              "text": "Warranty Information",
+              "textColor": "#22252D"
+            }
+          },
+          {
+            "editable": true,
+            "options": {
+              "presentationStyle": "accordion",
+              "collapsed": false
+            },
+            "type": "availabilityDescription",
+            "title": {
+              "text": "Availability Text",
+              "textColor": "#22252D"
+            }
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "id": "6513ce660a50fb25a0fa3742"
+      }
+    ],
+    "title": {
+      "text": "Product Detail",
+      "visible": true
+    },
+    "type": "product",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa372d"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "id": "a13e5504-bf52-42a8-bdec-545ed90140d0",
+        "title": {
+          "text": "Home 1"
+        },
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "id": "58aeee2a-25b1-43f5-a538-3a97ec6909ba",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/n2jej3wo0kbizi7yv0mtqn31/shop-by-brand-1",
+                "ratio": 4.5,
+                "width": 1125,
+                "height": 250,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/n2jej3wo0kbizi7yv0mtqn31/shop-by-brand-1/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "0649d1d1-687a-4152-8a44-b65be1561f76",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "inlineHtmlContent",
+            "backgroundColor": "#FFFFFF",
+            "content": "<p><strong>Shipping</strong><em><br><br></em>We can ship to virtually any address in the world. Note that there are restrictions on some products, and some products cannot be shipped to international destinations.<br><br>When you place an order, we will estimate shipping and delivery dates for you based on the availability of your items and the shipping options you choose. Depending on the shipping provider you choose, shipping date estimates may appear on the shipping quotes page.<br><br>Please also note that the shipping rates for many items we sell are weight-based. The weight of any such item can be found on its detail page. To reflect the policies of the shipping companies we use, all weights will be rounded up to the next full pound.</p>"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "text": "Giang test"
+    },
+    "type": "custom",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "65d4229669fe4f71a2638502"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [
+      {
+        "blocks": [
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "myProfile",
+                "id": "64776883934b224db2993a9f"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Profile"
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aa4",
+            "deleteable": false
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "address",
+                "id": "64776883934b224db2993a98"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Address book",
+              "visible": true
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aa5",
+            "deleteable": false
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "notifications",
+                "id": "64776883934b224db2993a92"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Notifications",
+              "visible": true
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aa6",
+            "deleteable": false
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "orders",
+                "id": "64776883934b224db2993a93"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Orders history",
+              "visible": true
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aa7",
+            "deleteable": false
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "wishlist",
+                "id": "64776883934b224db2993a97"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Wishlist",
+              "visible": true
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aa8",
+            "deleteable": false
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "recentlyViewed",
+                "id": "64776883934b224db2993a9e"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Recently viewed",
+              "visible": true
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aa9",
+            "deleteable": false
+          },
+          {
+            "id": "fa3a2faa-ffba-498a-ae21-2ce2fb5a3200",
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "id": "658b922e63868c1f13e33a79",
+                "title": {
+                  "text": "Locator"
+                }
+              }
+            },
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "title": {
+              "text": "Store locator"
+            },
+            "iconset": {
+              "source": {
+                "uri": "https://alphonso-data-int.s3.eu-central-1.amazonaws.com/icons/location/linear/location.svg"
+              },
+              "name": "location",
+              "color": "#1D2939",
+              "selectedColor": "#C5AE8F"
+            }
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "type": "settings",
+                "id": "64776883934b224db2993aa0"
+              },
+              "editable": false
+            },
+            "title": {
+              "text": "Settings"
+            },
+            "editable": true,
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aaa",
+            "deleteable": false,
+            "iconset": {
+              "source": {
+                "uri": "https://alphonso-data-int.s3.eu-central-1.amazonaws.com/icons/essetional/linear/slider.svg"
+              },
+              "name": "essetional",
+              "color": "#1D2939",
+              "selectedColor": "#C5AE8F"
+            }
+          },
+          {
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "id": "6540aa6c93eee17194658613",
+                "title": {
+                  "text": "Info page module"
+                }
+              },
+              "editable": true,
+              "url": {
+                "url": "https://vnexpress.net/"
+              }
+            },
+            "title": {
+              "text": "Help & info"
+            },
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "id": "64776883934b224db2993aab",
+            "editable": true,
+            "deleteable": true,
+            "iconset": {
+              "source": {
+                "uri": "https://alphonso-data-int.s3.eu-central-1.amazonaws.com/icons/essetional/linear/warning-2.svg"
+              },
+              "name": "essetional",
+              "color": "#1D2939",
+              "selectedColor": "#C5AE8F"
+            }
+          },
+          {
+            "id": "ee0060bb-9c98-4940-974f-8e9893587bc6",
+            "action": {
+              "type": "openInAppScreen",
+              "page": {
+                "id": "65d4229669fe4f71a2638502",
+                "title": {
+                  "text": "Giang test"
+                }
+              }
+            },
+            "type": "actionButton",
+            "backgroundColor": "#FFFFFF",
+            "title": {
+              "text": "Custom page"
+            },
+            "iconset": {
+              "source": {
+                "uri": "https://alphonso-data-int.s3.eu-central-1.amazonaws.com/icons/essetional/linear/glass.svg"
+              },
+              "name": "essetional",
+              "color": "#1D2939",
+              "selectedColor": "#C5AE8F"
+            }
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "id": "64776883934b224db2993aa3"
+      }
+    ],
+    "title": {
+      "text": "My Account",
+      "visible": true
+    },
+    "type": "myAccount",
+    "options": null,
+    "id": "6513ce660a50fb25a0fa3740"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": false,
+    "pages": [],
+    "title": {
+      "text": "Locator 26/02"
+    },
+    "type": "storeLocator",
+    "options": {
+      "layout": {
+        "searchBar": {
+          "visible": true,
+          "placeholder": "Search by City, Address, or ZIP Code",
+          "backgroundColor": "#F5F5F5"
+        }
+      }
+    },
+    "id": "65dc14d1907d8e29bcd878b0"
+  },
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "multiplePage": true,
+    "pages": [
+      {
+        "title": {
+          "text": "Page 1"
+        },
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "id": "f12de192-ca0a-495a-bf13-b83bd986f5b0",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "searchBar",
+            "backgroundColor": "#FFFFFF",
+            "placeholder": "Search product"
+          },
+          {
+            "id": "69e53785-1617-4b6a-8ace-7147abc1d6c0",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "dda0a366-f3d9-477d-ae6c-846b5aaa214f",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "7ae14022-caec-4823-9e51-f032511aa23e",
+            "action": {
+              "type": "openInAppScreen",
+              "url": {
+                "url": "",
+                "openExternal": false
+              },
+              "page": {
+                "id": "6576eb5f678e8302957fd795",
+                "title": {
+                  "visible": true,
+                  "text": "Brands"
+                }
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/nb8h5qqfyjwdspaxv4ygmpfl/shop-by-brand-big",
+                "ratio": 2.857142857142857,
+                "width": 1500,
+                "height": 525,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/nb8h5qqfyjwdspaxv4ygmpfl/shop-by-brand-big/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "cb5aab5e-bfd7-4134-9555-99ce7920263f",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "1f69bef0-cad4-49d6-996b-5d57b2dbc24d",
+            "action": {
+              "category": {
+                "id": 38,
+                "name": "Accessories",
+                "visible": true,
+                "url": null,
+                "image": "",
+                "children": [],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true
+              },
+              "type": "openCategory"
+            },
+            "columns": 2,
+            "backgroundColor": "#FFFFFF",
+            "viewMore": {
+              "text": "View all"
+            },
+            "type": "productCarousel",
+            "category": {
+              "id": 38,
+              "name": "Accessories",
+              "visible": true,
+              "url": null,
+              "image": "",
+              "children": [],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true
+            },
+            "products": [
+              {
+                "id": 239,
+                "name": "Yvonne Braided Leather Belt",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/239/714/yvonne_braided_leather_belt_brown__52436.1694768497.png",
+                "price": 56.2
+              },
+              {
+                "id": 238,
+                "name": "Yvette Braided Leather Belt",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/238/713/yvette_braided_leather_belt_hurricane__93938.1694768463.png",
+                "price": 56.2
+              },
+              {
+                "id": 237,
+                "name": "Sabine Leather Belt",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/237/712/sabine_leather_belt_black__60531.1694768181.jpg",
+                "price": 49.59
+              },
+              {
+                "id": 236,
+                "name": "Reine Leather Belt",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/236/711/reine_leather_belt_gun_metal__59917.1694768103.jpg",
+                "price": 49.59
+              },
+              {
+                "id": 235,
+                "name": "Manon Leather Belt",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/235/710/manon_leather_belt_hurricane__40178.1694768050.png",
+                "price": 49.59
+              },
+              {
+                "id": 234,
+                "name": "Lya Tote Bag",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/234/709/lya_tote_bag_soft_amber__45797.1694767965.png",
+                "price": 111.57
+              },
+              {
+                "id": 233,
+                "name": "Lucie Backpack",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/233/715/lucie_backpack_cotton__50578.1694768606.png",
+                "price": 89.26
+              },
+              {
+                "id": 232,
+                "name": "Lili Tote Bag",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/232/708/lili_tote_bag_cotton__32898.1694767886.png",
+                "price": 90.91
+              }
+            ],
+            "title": {
+              "text": "Accessories"
+            }
+          },
+          {
+            "id": "a99120e5-2075-41dc-bfa9-6daf4b51a8fe",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "e35f6709-3e9f-4618-a663-264e3ec1aea5",
+            "action": {
+              "category": {
+                "id": 25,
+                "name": "Clothing",
+                "visible": true,
+                "url": null,
+                "image": "",
+                "children": [
+                  {
+                    "id": 31,
+                    "name": "Dresses",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 34,
+                    "name": "Co-ords",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 32,
+                    "name": "Blazers",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 33,
+                    "name": "Blouses",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 35,
+                    "name": "Skirts",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 36,
+                    "name": "Shorts + trousers",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  }
+                ],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true
+              },
+              "type": "openCategory"
+            },
+            "columns": 2,
+            "backgroundColor": "#FFFFFF",
+            "viewMore": {
+              "text": "View all"
+            },
+            "type": "productCarousel",
+            "category": {
+              "id": 25,
+              "name": "Clothing",
+              "visible": true,
+              "url": null,
+              "image": "",
+              "children": [
+                {
+                  "id": 31,
+                  "name": "Dresses",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 34,
+                  "name": "Co-ords",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 32,
+                  "name": "Blazers",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 33,
+                  "name": "Blouses",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 35,
+                  "name": "Skirts",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                },
+                {
+                  "id": 36,
+                  "name": "Shorts + trousers",
+                  "visible": true,
+                  "url": null,
+                  "image": "",
+                  "children": [],
+                  "manufactureCategory": false,
+                  "parentId": 25,
+                  "selected": true
+                }
+              ],
+              "manufactureCategory": false,
+              "parentId": 0,
+              "selected": true
+            },
+            "products": [
+              {
+                "id": 404,
+                "name": "Lono Tweed Trousers",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/404/860/lono_tweed_trousers_1__69392.1694776794.png",
+                "price": 82.64
+              },
+              {
+                "id": 403,
+                "name": "Rose Belted Tweed Shorts",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/403/858/rose_belted_tweed_shorts_1__88328.1694776783.png",
+                "price": 82.64
+              },
+              {
+                "id": 402,
+                "name": "Disa Belted Tweed Shorts",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/402/855/disa_belted_tweed_shorts_1__44202.1694776775.png",
+                "price": 82.64
+              },
+              {
+                "id": 401,
+                "name": "Leilani Linen Trousers",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/401/852/leilani_linen_trousers_1__07975.1694776764.png",
+                "price": 78.51
+              },
+              {
+                "id": 400,
+                "name": "Briar Linen Trousers",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/400/850/briar_linen_trousers_1__02365.1694776753.png",
+                "price": 78.51
+              },
+              {
+                "id": 399,
+                "name": "Magnolia Cotton Shorts",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/399/847/magnolia_cotton_shorts_1__36135.1694776734.png",
+                "price": 74.38
+              },
+              {
+                "id": 398,
+                "name": "Kahili Chiffon Summer Shorts",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/398/845/kahili_chiffon_summer_shorts_1__60411.1694776721.png",
+                "price": 78.51
+              },
+              {
+                "id": 397,
+                "name": "Belladonna Floral Chiffon Shorts",
+                "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/images/stencil/640w/products/397/844/belladonna_floral_chiffon_shorts_1__06454.1694776712.png",
+                "price": 78.51
+              }
+            ],
+            "title": {
+              "text": "Clothing"
+            }
+          },
+          {
+            "id": "0f8f1bee-7e6f-41c3-930b-73b5ac6d5a74",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "9424596d-8aa5-48f8-bd83-128338591be5",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "recentlyViewed",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "id": "a0bdfb74-d68d-4a22-8872-3d1ce693589d",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "39d9e28a-252b-4c3b-b5cf-3c61f6695b9b",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "video",
+            "backgroundColor": "#FFFFFF",
+            "videos": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/vjuz0dfqo7gz0dnzs6xmv7zt/1496953604",
+                "ratio": 1.7777777777777777,
+                "width": 640,
+                "height": 360,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/vjuz0dfqo7gz0dnzs6xmv7zt/1496953604/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "397877f4-20dd-498f-929e-71753c45cfb8",
+            "height": 4,
+            "type": "spacer",
+            "backgroundColor": "#F5F5F5"
+          },
+          {
+            "id": "5971fd09-474c-473d-8bce-4a221b6fb618",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/jx50x7svlu9y4ftdv2bfgstl/image-2",
+                "ratio": 0.6989247311827957,
+                "width": 1170,
+                "height": 1674,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/jx50x7svlu9y4ftdv2bfgstl/image-2/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "8e9375d0-3ee7-4c5c-8ab6-948da6a37e5a",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "grid",
+            "backgroundColor": "#FFFFFF",
+            "columns": 3,
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/wpbpf737olefmeu4pp8ndive/logo-ac-4",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/wpbpf737olefmeu4pp8ndive/logo-ac-4/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/oict0259r059tnzkacqdarac/logo-ac-5",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/oict0259r059tnzkacqdarac/logo-ac-5/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/imlz5odo2p79kiini15b0ffv/logo-alphonso-choice",
+                "ratio": 1,
+                "width": 377,
+                "height": 377,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/imlz5odo2p79kiini15b0ffv/logo-alphonso-choice/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/g6cov8c2c3o6cy5cckfwb7qi/logo-ac-2",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/g6cov8c2c3o6cy5cckfwb7qi/logo-ac-2/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/ry93m3rel0p30pnitjbmufv5/logo_langra_1693216988__95127",
+                "ratio": 1,
+                "width": 120,
+                "height": 120,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/ry93m3rel0p30pnitjbmufv5/logo_langra_1693216988__95127/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              },
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/kgmu4n429adprsx04uv69evv/logo-ac-3",
+                "ratio": 1,
+                "width": 411,
+                "height": 411,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/kgmu4n429adprsx04uv69evv/logo-ac-3/variants/thumbnail",
+                "action": {
+                  "type": "openCategory"
+                }
+              }
+            ],
+            "spacing": {
+              "top": 16,
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "inner": 8
+            }
+          },
+          {
+            "id": "cfd95ef1-49d8-4046-a8fc-f960a27e9965",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/lukhr6nofofi17fz6fe0dzvl/ac-group-31",
+                "ratio": 1.9754601226993864,
+                "width": 966,
+                "height": 489,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/lukhr6nofofi17fz6fe0dzvl/ac-group-31/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "4c500c67-691a-4be8-b9fe-7c42309d2b67",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/ltsnwjsq05uo02l7dzbnxp2m/screenshot-2023-07-20-174250",
+                "ratio": 1.5802469135802468,
+                "width": 640,
+                "height": 405,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/ltsnwjsq05uo02l7dzbnxp2m/screenshot-2023-07-20-174250/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "1aa50813-d001-42da-adda-9e5ff92d4bb2",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/tbxflroethkweax73cdaorln/shop-by-brand",
+                "ratio": 4.5,
+                "width": 1125,
+                "height": 250,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/tbxflroethkweax73cdaorln/shop-by-brand/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "c2f443d1-a31a-4f57-aefc-8cad37e228c5",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/m1ebeyw1pl88nqbx32o1l6hg/brand-page-logo",
+                "ratio": 3.75,
+                "width": 1500,
+                "height": 400,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/m1ebeyw1pl88nqbx32o1l6hg/brand-page-logo/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "b54f742d-17b2-4bb8-a9af-ad72b3ac419f",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/dabe8uzijpthh25yyg68vhus/sushi-8113165_640",
+                "ratio": 1.4988290398126465,
+                "width": 640,
+                "height": 427,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/dabe8uzijpthh25yyg68vhus/sushi-8113165_640/variants/thumbnail"
+              }
+            ]
+          },
+          {
+            "id": "ae921986-05d5-462f-9a3b-509c1a9044a2",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "banner",
+            "backgroundColor": "#FFFFFF",
+            "images": [
+              {
+                "src": "https://alphonso-uppy.jmango360.dev/files/e53g24p54ntdtrpdvwpxx8y7/screenshot-2023-07-20-170857",
+                "ratio": 1.0434782608695652,
+                "width": 480,
+                "height": 460,
+                "thumbnail": "https://alphonso-uppy.jmango360.dev/files/e53g24p54ntdtrpdvwpxx8y7/screenshot-2023-07-20-170857/variants/thumbnail"
+              }
+            ]
+          }
+        ],
+        "id": "6513ce660a50fb25a0fa3741",
+        "options": {
+          "scrollBehavior": "smooth"
+        }
+      },
+      {
+        "id": "b55ac77b-2965-473f-b9b0-041fa7b2c9de",
+        "title": {
+          "text": "Home 2"
+        },
+        "backgroundColor": "#FFFFFF",
+        "blocks": [
+          {
+            "id": "ed446f6a-4eff-471b-8a73-ed745c995d0a",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "searchBar",
+            "backgroundColor": "#FFFFFF",
+            "placeholder": "Search Product"
+          },
+          {
+            "id": "5680f66d-20ed-45da-b86b-4bb4d7c564cc",
+            "action": {
+              "type": "openCategory",
+              "url": {
+                "url": "",
+                "openExternal": false
+              }
+            },
+            "type": "catalogGrid",
+            "columns": 4,
+            "backgroundColor": "#FFFFFF",
+            "categories": [
+              {
+                "id": 30,
+                "name": "Black Friday",
+                "visible": true,
+                "url": null,
+                "image": {
+                  "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/m/black%20friday__96023.png",
+                  "ratio": 2.857142857142857,
+                  "width": 1500,
+                  "height": 525
+                },
+                "children": [
+                  {
+                    "id": 65,
+                    "name": "OFF10%",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 30,
+                    "selected": true
+                  },
+                  {
+                    "id": 66,
+                    "name": "OFF20%",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 30,
+                    "selected": true
+                  },
+                  {
+                    "id": 67,
+                    "name": "OFF30%",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 30,
+                    "selected": true
+                  },
+                  {
+                    "id": 68,
+                    "name": "OFF50%",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 30,
+                    "selected": true
+                  }
+                ],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true,
+                "action": {
+                  "category": {
+                    "id": 30,
+                    "name": "Black Friday",
+                    "visible": true,
+                    "url": null,
+                    "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/m/black%20friday__96023.png",
+                    "children": [
+                      {
+                        "id": 65,
+                        "name": "OFF10%",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 30,
+                        "selected": true
+                      },
+                      {
+                        "id": 66,
+                        "name": "OFF20%",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 30,
+                        "selected": true
+                      },
+                      {
+                        "id": 67,
+                        "name": "OFF30%",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 30,
+                        "selected": true
+                      },
+                      {
+                        "id": 68,
+                        "name": "OFF50%",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 30,
+                        "selected": true
+                      }
+                    ],
+                    "manufactureCategory": false,
+                    "parentId": 0,
+                    "selected": true
+                  },
+                  "type": "openCategory"
+                }
+              },
+              {
+                "id": 27,
+                "name": "Shop by occasion",
+                "visible": true,
+                "url": null,
+                "image": {
+                  "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/k/shop%20by%20occasion__20152.png",
+                  "ratio": 2.857142857142857,
+                  "width": 1500,
+                  "height": 525
+                },
+                "children": [
+                  {
+                    "id": 43,
+                    "name": "Best-dressed guest",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 27,
+                    "selected": true
+                  },
+                  {
+                    "id": 46,
+                    "name": "Better basics",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 27,
+                    "selected": true
+                  },
+                  {
+                    "id": 44,
+                    "name": "Cool workwear",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 27,
+                    "selected": true
+                  },
+                  {
+                    "id": 45,
+                    "name": "Vacation wardrobe",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 27,
+                    "selected": true
+                  }
+                ],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true,
+                "action": {
+                  "category": {
+                    "id": 27,
+                    "name": "Shop by occasion",
+                    "visible": true,
+                    "url": null,
+                    "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/k/shop%20by%20occasion__20152.png",
+                    "children": [
+                      {
+                        "id": 43,
+                        "name": "Best-dressed guest",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 27,
+                        "selected": true
+                      },
+                      {
+                        "id": 46,
+                        "name": "Better basics",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 27,
+                        "selected": true
+                      },
+                      {
+                        "id": 44,
+                        "name": "Cool workwear",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 27,
+                        "selected": true
+                      },
+                      {
+                        "id": 45,
+                        "name": "Vacation wardrobe",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 27,
+                        "selected": true
+                      }
+                    ],
+                    "manufactureCategory": false,
+                    "parentId": 0,
+                    "selected": true
+                  },
+                  "type": "openCategory"
+                }
+              },
+              {
+                "id": 28,
+                "name": "Shop by style",
+                "visible": true,
+                "url": null,
+                "image": {
+                  "src": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/l/shop%20by%20style__27778.png",
+                  "ratio": 2.857142857142857,
+                  "width": 1500,
+                  "height": 525
+                },
+                "children": [
+                  {
+                    "id": 47,
+                    "name": "Contemporary",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 28,
+                    "selected": true
+                  },
+                  {
+                    "id": 51,
+                    "name": "Vintage",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 28,
+                    "selected": true
+                  }
+                ],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true,
+                "action": {
+                  "category": {
+                    "id": 28,
+                    "name": "Shop by style",
+                    "visible": true,
+                    "url": null,
+                    "image": "https://cdn11.bigcommerce.com/s-nugtuqy9sx/product_images/l/shop%20by%20style__27778.png",
+                    "children": [
+                      {
+                        "id": 47,
+                        "name": "Contemporary",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 28,
+                        "selected": true
+                      },
+                      {
+                        "id": 51,
+                        "name": "Vintage",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 28,
+                        "selected": true
+                      }
+                    ],
+                    "manufactureCategory": false,
+                    "parentId": 0,
+                    "selected": true
+                  },
+                  "type": "openCategory"
+                }
+              },
+              {
+                "id": 25,
+                "name": "Clothing",
+                "visible": true,
+                "url": null,
+                "image": {
+                  "src": ""
+                },
+                "children": [
+                  {
+                    "id": 31,
+                    "name": "Dresses",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 34,
+                    "name": "Co-ords",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 32,
+                    "name": "Blazers",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 33,
+                    "name": "Blouses",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 35,
+                    "name": "Skirts",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  },
+                  {
+                    "id": 36,
+                    "name": "Shorts + trousers",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [],
+                    "manufactureCategory": false,
+                    "parentId": 25,
+                    "selected": true
+                  }
+                ],
+                "manufactureCategory": false,
+                "parentId": 0,
+                "selected": true,
+                "action": {
+                  "category": {
+                    "id": 25,
+                    "name": "Clothing",
+                    "visible": true,
+                    "url": null,
+                    "image": "",
+                    "children": [
+                      {
+                        "id": 31,
+                        "name": "Dresses",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 25,
+                        "selected": true
+                      },
+                      {
+                        "id": 34,
+                        "name": "Co-ords",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 25,
+                        "selected": true
+                      },
+                      {
+                        "id": 32,
+                        "name": "Blazers",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 25,
+                        "selected": true
+                      },
+                      {
+                        "id": 33,
+                        "name": "Blouses",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 25,
+                        "selected": true
+                      },
+                      {
+                        "id": 35,
+                        "name": "Skirts",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 25,
+                        "selected": true
+                      },
+                      {
+                        "id": 36,
+                        "name": "Shorts + trousers",
+                        "visible": true,
+                        "url": null,
+                        "image": "",
+                        "children": [],
+                        "manufactureCategory": false,
+                        "parentId": 25,
+                        "selected": true
+                      }
+                    ],
+                    "manufactureCategory": false,
+                    "parentId": 0,
+                    "selected": true
+                  },
+                  "type": "openCategory"
+                }
+              }
+            ]
+          }
+        ],
+        "options": {
+          "scrollBehavior": "smooth"
+        }
+      }
+    ],
+    "title": {
+      "text": "Home",
+      "visible": true
+    },
+    "type": "home",
+    "options": {
+      "adjustContentInsets": true,
+      "header": {
+        "backgroundColor": "#ffffff50",
+        "textColor": "#22252d",
+        "activeTextColor": "#e45f35",
+        "position": "collapsed"
+      },
+      "type": "home",
+      "options": null,
+      "id": "6513ce660a50fb25a0fa372c"
+    },
+    "id": "6513ce660a50fb25a0fa372c"
+  }
+]

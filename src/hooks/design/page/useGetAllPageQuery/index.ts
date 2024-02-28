@@ -1,3 +1,4 @@
+import pages from '../pages.json'
 import { useCallback } from 'react'
 import { useRecoilValue } from 'recoil'
 import { useQuery } from '@tanstack/react-query'
@@ -26,5 +27,6 @@ export const useGetAllPageQuery = (arg?: Arg) => {
   })
   return {
     ...fn,
+    data: { data: pages },
   }
 }

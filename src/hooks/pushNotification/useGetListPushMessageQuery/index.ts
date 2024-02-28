@@ -26,7 +26,9 @@ export const useGetListPushMessageQuery = (arg: Arg) => {
     return rs.data
   }, [api, appKey, arg])
 
-  const fn = useQuery(['useGetListPushMessageQuery', appKey, arg], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetListPushMessageQuery', appKey, arg],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

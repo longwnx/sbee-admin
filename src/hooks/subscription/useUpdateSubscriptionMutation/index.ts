@@ -20,7 +20,8 @@ export const useUpdateSubscriptionMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUpdateSubscriptionMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdateSubscriptionMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       window.location.href = rs?.data?.url

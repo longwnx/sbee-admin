@@ -18,7 +18,9 @@ export const useGetZohoLeadQuery = () => {
     return rs.data
   }, [api, appKey, data?.email])
 
-  const fn = useQuery(['useGetZohoLeadQuery', data, appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetZohoLeadQuery', data, appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!data?.email && !!appKey,

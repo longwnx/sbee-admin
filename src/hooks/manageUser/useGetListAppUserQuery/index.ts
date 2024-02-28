@@ -13,7 +13,9 @@ export const useGetListAppUserQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetListAppUserQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetListAppUserQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

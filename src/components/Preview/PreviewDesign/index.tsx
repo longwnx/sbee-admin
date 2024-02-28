@@ -37,7 +37,7 @@ export const PreviewDesign: React.FC<Props> = ({
   const { data: allLayout, isLoading: isLoadingGetAllLayout } = useGetAllLayoutQuery()
   const { blocks } = useSelectedPageBlock()
 
-  const activeLayout = useMemo(() => find(allLayout?.data, (i) => i?.defaultActive), [allLayout?.data])
+  const activeLayout = useMemo(() => find(allLayout?.data, (i) => i?.defaultActive), [allLayout?.data]) as UiLayout
 
   useEffect(() => {
     setLayout(activeLayout)
@@ -82,7 +82,7 @@ export const PreviewDesign: React.FC<Props> = ({
   })
 
   return (
-    <div className={classNames('m-auto relative w-full md:w-[390px]')}>
+    <div className={classNames('m-auto relative w-full md:w-[390px] bg-red-500')}>
       <Loading isLoading={isLoadingGetAllLayout}>
         <div className="flex flex-col relative bg-white shadow-[0_2px_28px_#0000000d]">
           <div>

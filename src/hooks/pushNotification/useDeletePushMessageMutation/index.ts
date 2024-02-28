@@ -19,7 +19,7 @@ export const useDeletePushMessageMutation = (
 
   const callbackSusscess = useCallback(() => {
     message.success('Delete message successfully')
-    queryClient.refetchQueries(['useGetListPushMessageQuery'])
+    queryClient.refetchQueries({ queryKey: ['useGetListPushMessageQuery'] })
   }, [message, queryClient])
 
   const { api } = useApi()
@@ -28,7 +28,8 @@ export const useDeletePushMessageMutation = (
     const rs = await api.delete(`/app/v1/builder/${appKey}/notifications/message/${arg?.id}`)
     return rs.data
   }
-  const fn = useMutation(['useDeletePushMessageMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useDeletePushMessageMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

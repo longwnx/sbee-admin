@@ -20,10 +20,11 @@ export const useDowngradeSubscriptionMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useDowngradeSubscriptionMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useDowngradeSubscriptionMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
-      queryClient.refetchQueries(['useGetSubscriptionByAppQuery'])
+      queryClient.refetchQueries({ queryKey: ['useGetSubscriptionByAppQuery'] })
       onSuccess?.(rs)
     },
     onError: (err: any) => {

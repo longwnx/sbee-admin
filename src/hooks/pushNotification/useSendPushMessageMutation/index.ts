@@ -39,7 +39,8 @@ export const useSendPushMessageMutation = (
     })
     return rs.data
   }
-  const fn = useMutation(['useSendPushMessageMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useSendPushMessageMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

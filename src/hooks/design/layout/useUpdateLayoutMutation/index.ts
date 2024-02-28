@@ -30,7 +30,8 @@ export const useUpdateLayoutMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUpdateLayoutMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdateLayoutMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

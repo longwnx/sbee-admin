@@ -9,7 +9,9 @@ export const useGetAllPlansQuery = () => {
     return rs.data
   }, [api])
 
-  const fn = useQuery(['useGetAllPlansQuery'], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetAllPlansQuery'],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
   })

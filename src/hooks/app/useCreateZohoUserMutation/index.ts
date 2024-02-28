@@ -25,7 +25,8 @@ export const useCreateZohoUserMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useCreateZohoUserMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useCreateZohoUserMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       onSuccess?.(rs)

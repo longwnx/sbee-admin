@@ -21,7 +21,8 @@ export const useGetImpersonatedTokenMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useGetImpersonatedTokenMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useGetImpersonatedTokenMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       setAccessToken(rs?.data)

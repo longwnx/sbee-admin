@@ -58,8 +58,8 @@ export const useUpdateAppSettingsMutation = (
   const callbackSusscess = useCallback(() => {
     setFlagChangeAppSettings(false)
     message.success('Update settings successfully')
-    queryClient.refetchQueries(['useGetAppSettingsQuery', appKey])
-    queryClient.refetchQueries(['useGetAppCouponQuery', appKey])
+    queryClient.refetchQueries({ queryKey: ['useGetAppSettingsQuery', appKey] })
+    queryClient.refetchQueries({ queryKey: ['useGetAppCouponQuery', appKey] })
   }, [appKey, message, queryClient, setFlagChangeAppSettings])
 
   const { api } = useApi()
@@ -77,7 +77,8 @@ export const useUpdateAppSettingsMutation = (
     }
   }
 
-  const fn = useMutation(['useUpdateAppSettingsMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdateAppSettingsMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

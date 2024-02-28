@@ -6,20 +6,19 @@ import { isEmpty, map } from 'lodash'
 import { useEffect, useState } from 'react'
 import { Draggable, Droppable } from 'react-beautiful-dnd'
 import Scrollbars from 'react-custom-scrollbars-2'
-import { useRecoilValue, useSetRecoilState } from 'recoil'
+import { useSetRecoilState } from 'recoil'
 import { useDebounce } from 'usehooks-ts'
 import { css } from '@emotion/css'
 import { BLANK_IMAGE, DEFAULT_IMAGE } from '@public'
 import {
   IconClose,
   IconCollection,
-  IconPenEdit,
   IconSearch,
   IconTrash,
   SettingBlockCatalogCollapseChild,
   SettingBlockWrapper,
 } from '@/components'
-import { useDragDropBlock, useModifyUiPages, useSearchCategoryQuery } from '@/hooks'
+import { useDragDropBlock, useModifyUiPages } from '@/hooks'
 import { currentIndexBlockState } from '@/recoil'
 import { DroppableType } from '@/types'
 

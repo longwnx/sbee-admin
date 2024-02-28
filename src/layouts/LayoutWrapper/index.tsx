@@ -45,8 +45,6 @@ export const LayoutWrapper: React.FC<Props> = ({ children }) => {
     }
   }, [isDesktop, setCollapsed])
 
-  console.log('flagChangeAppPage', isDesktop)
-
   const onChangeRoute = useCallback(
     (path: string) => {
       switch (pathname) {

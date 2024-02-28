@@ -22,7 +22,9 @@ export const useGetMediaLibraryQuery = (arg: Arg) => {
     return rs.data
   }, [api, appKey, arg.page, arg.size])
 
-  const fn = useQuery(['useGetMediaLibraryQuery', arg, appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetMediaLibraryQuery', arg, appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !isEmpty(appKey),

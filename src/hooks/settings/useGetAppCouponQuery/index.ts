@@ -13,7 +13,9 @@ export const useGetAppCouponQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetAppCouponQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetAppCouponQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

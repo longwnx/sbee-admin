@@ -13,7 +13,9 @@ export const useGetSubscriptionByAppQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetSubscriptionByAppQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetSubscriptionByAppQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

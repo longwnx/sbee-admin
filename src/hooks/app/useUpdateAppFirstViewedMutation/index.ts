@@ -16,10 +16,11 @@ export const useUpdateAppFirstViewedMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUpdateAppFirstViewedMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdateAppFirstViewedMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
-      queryClient.refetchQueries(['useGetDetailAppByUserQuery'])
+      queryClient.refetchQueries({ queryKey: ['useGetDetailAppByUserQuery'] })
       onSuccess?.(rs)
     },
     onError: (err: any) => {

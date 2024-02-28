@@ -1,0 +1,164 @@
+[
+  {
+    "appKey": "6513ce650a50fb25a0fa372a",
+    "page": null,
+    "topTabs": null,
+    "bottomTabs": [
+      {
+        "iconset": {
+          "source": {
+            "uri": "https://alphonso-data-prod.s3.eu-central-1.amazonaws.com/icons/essetional/linear/home-2.svg"
+          },
+          "name": "essetional",
+          "color": "#b1b7c2",
+          "selectedColor": "#374570"
+        },
+        "page": {
+          "type": "home",
+          "id": "6513ce660a50fb25a0fa372c"
+        },
+        "title": {
+          "selectedTextColor": "#374570",
+          "text": "Home",
+          "textColor": "#b1b7c2",
+          "visible": true
+        },
+        "id": "6513ce670a50fb25a0fa3755"
+      },
+      {
+        "title": {
+          "selectedTextColor": "#374570",
+          "textColor": "#b1b7c2",
+          "visible": true,
+          "text": "Shop"
+        },
+        "iconset": {
+          "selectedColor": "#374570",
+          "color": "#b1b7c2",
+          "name": "grid",
+          "source": {
+            "uri": "https://alphonso-data-int.s3.eu-central-1.amazonaws.com/icons/grid/linear/element-3.svg"
+          }
+        },
+        "page": {
+          "id": "6513ce660a50fb25a0fa373a"
+        },
+        "id": "7a503ad0-4536-478f-88c7-ebdb1eb8886d"
+      },
+      {
+        "title": {
+          "selectedTextColor": "#374570",
+          "textColor": "#b1b7c2",
+          "visible": true,
+          "text": "Brands"
+        },
+        "iconset": {
+          "source": {
+            "uri": "https://alphonso-data-int.s3.eu-central-1.amazonaws.com/icons/essetional/linear/verify.svg"
+          },
+          "name": "essetional",
+          "color": "#b1b7c2",
+          "selectedColor": "#374570"
+        },
+        "page": {
+          "id": "6576eb5f678e8302957fd795",
+          "title": {
+            "text": "Brands"
+          }
+        },
+        "id": "7fdd67c0-5737-481f-9335-45045b6dd339"
+      },
+      {
+        "iconset": {
+          "source": {
+            "uri": "https://alphonso-data-prod.s3.eu-central-1.amazonaws.com/icons/shop/linear/shopping-bag.svg"
+          },
+          "name": "shop",
+          "color": "#b1b7c2",
+          "selectedColor": "#374570"
+        },
+        "page": {
+          "type": "cart",
+          "id": "6513ce660a50fb25a0fa372f"
+        },
+        "title": {
+          "selectedTextColor": "#374570",
+          "text": "Cart",
+          "textColor": "#b1b7c2",
+          "visible": true
+        },
+        "id": "6513ce670a50fb25a0fa3756"
+      },
+      {
+        "iconset": {
+          "source": {
+            "uri": "https://alphonso-data-prod.s3.eu-central-1.amazonaws.com/icons/users/linear/user.svg"
+          },
+          "name": "users",
+          "color": "#b1b7c2",
+          "selectedColor": "#374570"
+        },
+        "notDelete": true,
+        "page": {
+          "type": "myAccount",
+          "id": "6513ce660a50fb25a0fa3740"
+        },
+        "title": {
+          "selectedTextColor": "#374570",
+          "text": "My Account",
+          "textColor": "#b1b7c2",
+          "visible": true
+        },
+        "id": "6513ce670a50fb25a0fa3757"
+      }
+    ],
+    "theme": {
+      "logo": {
+        "src": "https://alphonso-uppy.jmango360.dev/files/s7sweq0lnbjenca3ypi02tzi/ac-logo-home-1",
+        "ratio": 3.6809815950920246,
+        "width": 1200,
+        "height": 326
+      },
+      "layout": {
+        "backgroundColor": "#ffffff"
+      },
+      "colour": {
+        "primary": "#000000",
+        "secondary": "#000000",
+        "badge": "#E45F35",
+        "brand": "#a4c4af"
+      },
+      "font": {
+        "family": "Roboto"
+      },
+      "icon": {
+        "style": "outline",
+        "size": 24
+      },
+      "corner": {
+        "style": "sharp"
+      },
+      "image": {
+        "style": "2:3"
+      }
+    },
+    "options": {
+      "topBar": {
+        "backgroundColor": "#ffffff"
+      },
+      "bottomTabs": {
+        "backgroundColor": "#eff5f2",
+        "iconset": {
+          "selectedColor": "#374570",
+          "color": "#b1b7c2"
+        },
+        "title": {
+          "selectedTextColor": "#374570",
+          "textColor": "#b1b7c2"
+        }
+      }
+    },
+    "defaultActive": true,
+    "id": "6513ce670a50fb25a0fa3758"
+  }
+]

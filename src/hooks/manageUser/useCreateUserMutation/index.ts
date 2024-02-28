@@ -21,7 +21,7 @@ export const useCreateUserMutation = (
 
   const callbackSusscess = useCallback(() => {
     message.success('User created successfully')
-    queryClient.refetchQueries(['useGetListAppUserQuery'])
+    queryClient.refetchQueries({ queryKey: ['useGetListAppUserQuery'] })
     router.push(`/manage-user`)
   }, [message, queryClient, router])
 
@@ -34,7 +34,8 @@ export const useCreateUserMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useCreateUserMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useCreateUserMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

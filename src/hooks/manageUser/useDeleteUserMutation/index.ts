@@ -19,7 +19,7 @@ export const useDeleteUserMutation = (
 
   const callbackSusscess = useCallback(() => {
     message.success('User deleted successfully')
-    queryClient.refetchQueries(['useGetListAppUserQuery'])
+    queryClient.refetchQueries({ queryKey: ['useGetListAppUserQuery'] })
   }, [message, queryClient])
 
   const { api } = useApi()
@@ -29,7 +29,8 @@ export const useDeleteUserMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useDeleteUserMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useDeleteUserMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

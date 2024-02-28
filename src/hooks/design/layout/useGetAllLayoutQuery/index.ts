@@ -2,6 +2,7 @@ import { useCallback } from 'react'
 import { useRecoilValue } from 'recoil'
 import { useQuery } from '@tanstack/react-query'
 import { useApi } from '@/hooks'
+import layout from '@/hooks/design/layout/layout.json'
 import { appKeyState } from '@/recoil'
 
 export const useGetAllLayoutQuery = () => {
@@ -22,5 +23,6 @@ export const useGetAllLayoutQuery = () => {
   })
   return {
     ...fn,
+    data: { data: layout },
   }
 }

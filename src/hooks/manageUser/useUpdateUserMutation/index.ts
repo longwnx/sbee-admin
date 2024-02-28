@@ -20,7 +20,7 @@ export const useUpdateUserMutation = (
 
   const callbackSusscess = useCallback(() => {
     message.success('User updated successfully')
-    queryClient.refetchQueries(['useGetListAppUserQuery'])
+    queryClient.refetchQueries({ queryKey: ['useGetListAppUserQuery'] })
   }, [message, queryClient])
 
   const { api } = useApi()
@@ -32,7 +32,8 @@ export const useUpdateUserMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUpdateUserMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdateUserMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

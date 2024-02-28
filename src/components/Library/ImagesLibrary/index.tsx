@@ -36,7 +36,7 @@ export const ImagesLibrary: React.FC<Props> = ({
     size: 1000,
   })
   const { data: userInfo } = useGetUserInfoQuery()
-  const { mutate: onDelete, isLoading } = useDeleteMediaLibraryMutation()
+  const { mutate: onDelete, isPending: isLoading } = useDeleteMediaLibraryMutation()
   const [images, setImages] = useState<MediaLibrary[]>([])
 
   const dataImages = useMemo(
@@ -160,7 +160,7 @@ export const ImagesLibrary: React.FC<Props> = ({
                         icon: null,
                         content: (
                           <div>
-                            <ExclamationCircleOutlined rev className="mr-2 text-[#faad14]" />
+                            <ExclamationCircleOutlined className="mr-2 text-[#faad14]" />
                             <span>Are you sure?</span>
                           </div>
                         ),

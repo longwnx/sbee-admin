@@ -13,7 +13,9 @@ export const useGetAppSettingsQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetAppSettingsQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetAppSettingsQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

@@ -21,7 +21,7 @@ export const useUpdatePublishInfoMutation = (
   const callbackSusscess = useCallback(() => {
     setFlagChangeAppStoreInfo(false)
     message.success('Your changes have been saved successfully')
-    queryClient.refetchQueries(['useGetDetailIntegrationQuery', appKey])
+    queryClient.refetchQueries({ queryKey: ['useGetDetailIntegrationQuery', appKey] })
   }, [appKey, message, queryClient, setFlagChangeAppStoreInfo])
 
   const { api } = useApi()
@@ -33,7 +33,8 @@ export const useUpdatePublishInfoMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUpdatePublishInfoMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdatePublishInfoMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

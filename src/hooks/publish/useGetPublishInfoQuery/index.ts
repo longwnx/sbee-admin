@@ -13,7 +13,9 @@ export const useGetPublishInfoQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetPublishInfoQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetPublishInfoQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

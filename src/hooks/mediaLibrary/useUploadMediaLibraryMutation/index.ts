@@ -28,11 +28,12 @@ export const useUploadMediaLibraryMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUploadMediaLibraryMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUploadMediaLibraryMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       message.destroy()
-      queryClient.refetchQueries(['useGetMediaLibraryQuery'])
+      queryClient.refetchQueries({ queryKey: ['useGetMediaLibraryQuery'] })
       onSuccess?.(rs)
     },
     onError: (err: any) => {

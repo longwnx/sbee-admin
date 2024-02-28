@@ -35,7 +35,7 @@ export const useDragDropBottomTab = () => {
 
   const defaultBottomTab: any = useCallback(
     (type: PageTypes) => {
-      const findIdPage = find(allPage?.data, (i) => i?.type === type)?.id
+      const findIdPage = find(allPage, (i) => i?.type === type)?.id
       switch (type) {
         case PageTypes.Home:
           return {
@@ -125,7 +125,7 @@ export const useDragDropBottomTab = () => {
           return
       }
     },
-    [allPage?.data, findIcon, layout?.options?.bottomTabs?.title]
+    [allPage, findIcon, layout?.options?.bottomTabs?.title]
   )
 
   const onDropBottomTabFromSidebar = useCallback(

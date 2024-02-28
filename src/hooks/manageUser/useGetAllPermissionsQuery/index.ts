@@ -13,7 +13,9 @@ export const useGetAllPermissionsQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetAllPermissionsQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetAllPermissionsQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,

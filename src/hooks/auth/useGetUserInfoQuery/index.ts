@@ -24,7 +24,9 @@ export const useGetUserInfoQuery = () => {
     return data
   }, [api])
 
-  const fn = useQuery(['useGetUserInfoQuery'], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetUserInfoQuery'],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
   })

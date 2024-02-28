@@ -15,7 +15,9 @@ export const useGetDetailIntegrationQuery = () => {
     return rs.data
   }, [api, appKey, params?.slug])
 
-  const fn = useQuery(['useGetDetailIntegrationQuery', appKey, params?.slug], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetDetailIntegrationQuery', appKey, params?.slug],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey && !!params?.slug,

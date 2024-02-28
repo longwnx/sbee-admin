@@ -29,7 +29,7 @@ export const PreviewCustomPage: React.FC<Props> = ({ activePage }) => {
   const { selectedPage } = useSelectedPageBlock()
   const [activeTab, setActiveTab] = useState('list')
 
-  const activeLayout = useMemo(() => find(allLayout?.data, (i) => i?.defaultActive), [allLayout?.data])
+  const activeLayout = useMemo(() => find(allLayout?.data, (i) => i?.defaultActive), [allLayout?.data]) as UiLayout
 
   useEffect(() => {
     setLayout(activeLayout)

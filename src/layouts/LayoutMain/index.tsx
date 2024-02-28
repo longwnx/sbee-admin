@@ -49,7 +49,7 @@ export const LayoutMain: React.FC<Props> = ({ children, isVisibleFooter, onSave,
 
   return (
     <LayoutWrapper>
-      <div className="h-screen flex flex-col relative pt-[64px] overflow-hidden bg-red-500">
+      <div className="h-screen flex flex-col relative pt-[64px] overflow-hidden">
         <div className="h-[64px] absolute top-0 right-0 w-full">
           <Header />
         </div>

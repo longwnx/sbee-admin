@@ -22,7 +22,7 @@ export const useDeleteMediaLibraryMutation = (
   const callbackSusscess = useCallback(() => {
     message.destroy()
     message.success('Delete successfully')
-    queryClient.refetchQueries(['useGetMediaLibraryQuery'])
+    queryClient.refetchQueries({ queryKey: ['useGetMediaLibraryQuery'] })
   }, [message, queryClient])
 
   const { api } = useApi()
@@ -39,7 +39,8 @@ export const useDeleteMediaLibraryMutation = (
     })
     return rs.data
   }
-  const fn = useMutation(['useDeleteMediaLibraryMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useDeleteMediaLibraryMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       callbackSusscess()

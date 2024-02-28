@@ -29,10 +29,11 @@ export const useUpdateIntegrationMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useUpdateIntegrationMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useUpdateIntegrationMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
-      queryClient.refetchQueries(['useGetDetailIntegrationQuery', appKey, params?.slug])
+      queryClient.refetchQueries({ queryKey: ['useGetDetailIntegrationQuery', appKey, params?.slug] })
       onSuccess?.(rs)
     },
     onError: (err: any) => {

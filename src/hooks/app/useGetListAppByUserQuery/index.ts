@@ -11,18 +11,20 @@ export const useGetListAppByUserQuery = (arg?: Arg) => {
   const { data } = useGetUserInfoQuery()
 
   const fetcher = useCallback(async () => {
-    const rs = await api.get(`/app/v1/builder/list/${data?.sub}`, {
+    const rs = await api.get(`/app/v1/builder/list/${data}`, {
       params: {
         ...(arg?.storeCode && { storeCode: arg?.storeCode }),
       },
     })
     return rs.data
-  }, [api, arg?.storeCode, data?.sub])
+  }, [api, arg?.storeCode, data])
 
-  const fn = useQuery(['useGetListAppByUserQuery', data], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetListAppByUserQuery', data],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
-    enabled: !!data?.sub,
+    enabled: !!data,
   })
   return {
     ...fn,

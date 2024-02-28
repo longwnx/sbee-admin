@@ -26,7 +26,8 @@ export const useGetOnboardTokenMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useGetOnboardTokenMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useGetOnboardTokenMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
       setAccessToken(rs?.data?.access_token)

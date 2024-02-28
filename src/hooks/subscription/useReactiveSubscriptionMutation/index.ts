@@ -16,10 +16,11 @@ export const useReactiveSubscriptionMutation = (
     return rs.data
   }
 
-  const fn = useMutation(['useReactiveSubscriptionMutation'], {
+  const fn = useMutation({
+    mutationKey: ['useReactiveSubscriptionMutation'],
     mutationFn: fetcher,
     onSuccess: (rs) => {
-      queryClient.refetchQueries(['useGetSubscriptionByAppQuery'])
+      queryClient.refetchQueries({ queryKey: ['useGetSubscriptionByAppQuery'] })
       onSuccess?.(rs)
     },
     onError: (err: any) => {

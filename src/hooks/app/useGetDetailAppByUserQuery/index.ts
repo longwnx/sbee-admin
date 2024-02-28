@@ -14,7 +14,9 @@ export const useGetDetailAppByUserQuery = () => {
     return rs.data
   }, [api, appKey])
 
-  const fn = useQuery(['useGetDetailAppByUserQuery', appKey], fetcher, {
+  const fn = useQuery({
+    queryKey: ['useGetDetailAppByUserQuery', appKey],
+    queryFn: fetcher,
     refetchOnWindowFocus: false,
     retry: false,
     enabled: !!appKey,
