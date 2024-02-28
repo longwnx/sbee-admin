@@ -1,0 +1,195 @@
+html,
+body {
+  color: #101828;
+
+  .ant-typography {
+    color: #101828;
+  }
+}
+
+.ant-pro-layout {
+  .ant-pro-layout-bg-list {
+    background: #fff;
+  }
+
+  .ant-pro-sider-logo {
+    border-bottom: none;
+  }
+
+  .ant-pro-sider {
+    background: #fff;
+  }
+}
+
+.ant-pro-base-menu-inline-item-icon {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+
+.ant-pro-global-header-logo img {
+  width: 60px !important;
+  object-fit: contain !important;
+}
+
+.ant-pro-layout {
+  .ant-pro-layout-bg-list {
+    background: #fff;
+  }
+
+  .ant-pro-layout-content {
+    padding: 0 !important;
+  }
+}
+
+.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: #c5ae8f !important;
+}
+
+.ant-pro-layout .ant-pro-sider-logo {
+  border-bottom: 0 !important;
+  padding-block: 21px !important;
+}
+
+.ant-pro-layout .ant-pro-sider-logo-collapsed > a > img {
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: contain !important;
+}
+
+.ant-pro-layout .ant-pro-sider-logo-collapsed {
+  padding: 16px 0 !important;
+}
+
+.ant-drawer .ant-drawer-mask {
+  position: fixed !important;
+}
+
+.ant-pro-layout .ant-pro-sider .ant-layout-sider-children {
+  background-color: #ffffff !important;
+}
+
+.ant-pagination-item {
+  border-radius: 50px !important;
+
+  &.ant-pagination-item-active {
+    background-color: #f2f4f7 !important;
+    border-color: #f2f4f7 !important;
+  }
+
+  a {
+    color: #1d2939 !important;
+  }
+}
+
+.ant-pro-base-menu .ant-pro-base-menu-item-icon {
+  width: 24px !important;
+  height: 24px !important;
+  line-height: 32px !important;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+  line-height: 33px;
+}
+
+.ant-form-item .ant-form-item-label > label {
+  font-weight: 500 !important;
+  color: #1d2939 !important;
+}
+
+.ant-input-lg {
+  font-size: 14px !important;
+}
+
+.form-item-label-required-left {
+  label.ant-form-item-required::before {
+    display: none !important;
+  }
+  label.ant-form-item-required::after {
+    display: inline-block;
+    margin-inline-end: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+  }
+}
+
+canvas {
+  display: block;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.ant-select .ant-select-clear {
+  right: 8px !important;
+  top: 14px !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ant-select.select-app-list {
+  .ant-select-selector,
+  .ant-select-selection-search-input {
+    height: 50px !important;
+  }
+
+  .ant-select-selector {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .ant-select-selection-search {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+
+    input {
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+
+  .ant-select-selection-item {
+    line-height: 50px !important;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.apexcharts-canvas {
+  .apexcharts-svg {
+    overflow: visible;
+  }
+
+  .apexcharts-tooltip {
+    &.rounded-sm {
+      .apexcharts-tooltip-marker {
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+.ant-table-column-sorter-up,
+.ant-table-column-sorter-down {
+  font-size: 14px !important;
+  color: #e3e3e3 !important;
+  &.active {
+    color: #b19d81 !important;
+  }
+}

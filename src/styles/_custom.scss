@@ -1,0 +1,19 @@
+.hide-legend {
+  .apexcharts-legend-series {
+    height: 17px;
+    width: 17px;
+
+    span {
+      display: none !important;
+    }
+  }
+}
+
+.custom-range-picker.ant-picker-dropdown {
+  .ant-picker-panel-container {
+    .ant-picker-presets ul li {
+      padding: 0;
+      padding-inline: 0;
+    }
+  }
+}

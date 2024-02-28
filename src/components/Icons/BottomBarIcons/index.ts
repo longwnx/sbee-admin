@@ -1,0 +1,7 @@
+export * from './IconBottomBarProfile'
+export * from './IconBottomBarCart'
+export * from './IconBottomBarHome'
+export * from './IconBottomBarNotification'
+export * from './IconBottomBarCatalog'
+export * from './IconBottomBarWishlist'
+export * from './IconBottomBarSearch'

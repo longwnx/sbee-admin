@@ -1,0 +1,20 @@
+export const env = {
+  APP_KEYCLOAK_API: process.env.NEXT_PUBLIC_APP_KEYCLOAK_API as string,
+  APP_KEYCLOAK_CLIENT_ID: process.env.NEXT_PUBLIC_APP_KEYCLOAK_CLIENT_ID as string,
+  APP_KEYCLOAK_CLIENT_SECRET: process.env.NEXT_PUBLIC_APP_KEYCLOAK_CLIENT_SECRET as string,
+  APP_KEYCLOAK_REALM: process.env.NEXT_PUBLIC_APP_KEYCLOAK_REALM as string,
+
+  APP_API: process.env.NEXT_PUBLIC_APP_API as string,
+  APP_GOOGLE_API_KEY: process.env.NEXT_PUBLIC_APP_GOOGLE_API_KEY as string,
+
+  APP_APPETIZER_IOS: process.env.NEXT_PUBLIC_APP_APPETIZER_IOS as string,
+  APP_APPETIZER_ANDROID: process.env.NEXT_PUBLIC_APP_APPETIZER_ANDROID as string,
+  APP_GA4: process.env.NEXT_PUBLIC_APP_GA4 as string,
+  APP_GTM: process.env.NEXT_PUBLIC_APP_GTM as string,
+
+  APP_ENV: process.env.NEXT_PUBLIC_APP_ENV as string,
+
+  NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID as string,
+  GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET as string,
+}

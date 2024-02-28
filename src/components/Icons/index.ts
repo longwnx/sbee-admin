@@ -1,0 +1,5 @@
+export * from './CommonIcons'
+export * from './MenuIcons'
+export * from './BottomBarIcons'
+export * from './CustomIcons'
+export * from './BlockIcons'
