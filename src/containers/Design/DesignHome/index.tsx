@@ -39,7 +39,7 @@ export const DesignHome = () => {
       leftContent={
         <Droppable type={DroppableType.Block} droppableId={DroppableId.BlockHandle} isDropDisabled={false}>
           {(provided) => (
-            <div {...provided.droppableProps} ref={provided.innerRef} className="h-full px-4 bg-blue-500">
+            <div {...provided.droppableProps} ref={provided.innerRef} className="h-full px-4">
               <Row gutter={[16, 16]}>
                 {map(
                   [
